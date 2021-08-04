@@ -32,5 +32,5 @@ for each_model in all_models:
 dict_["models"] = model_list
 
 #dump
-with open('../json/models.json', 'w') as f:
+with open('json/models.json', 'w') as f:
     json.dump(dict_, f, indent = 2)
