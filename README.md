@@ -6,4 +6,4 @@ Make sure that the latest models are uploaded to `s3://celltypist/models/v6/`, a
 ```console
 python src/generate_json_from_latest_models.py
 ```
-New json file will stay in `json/models.json`.
+New json file will stay in `json/models.json`. Upload to `s3://celltypist/models/`.
