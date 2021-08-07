@@ -15,6 +15,14 @@ python src/generate_encyclopedia_table.py
 ```
 The resulting table will stay in `encyclopedia/encyclopedia_table.xlsx`.
 
+## Generate average and percent expression for gene expression heat map
+Adata should be log-normalised first (1e4). Tissue and cell type orders are defined in the `src/generate_Heatmap_data.py` and `Heatmap_data/celltype_order.txt`, respectively.  
+Cell types with <=5 cells from a tissue-celltype combination are thought as non-existing (black grids in the heat map).
+```console
+python src/generate_Heatmap_data.py /path/to/adata
+```
+Heatmap data will stay in `Heatmap_data/exp_pct_celltypist_immune.pkl`. Upload to `s3://celltypist/Heatmap_data/`.
+
 ## Images
 Images are in `images/*.png`. White background, 842 x 736 (pixels).  
 Correspondence between cell type names and images is in `images/celltype_to_image.csv`.
