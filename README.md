@@ -17,7 +17,7 @@ The resulting table will stay in `encyclopedia/encyclopedia_table.xlsx`.
 
 ## Images
 Images are in `images/*.png`. White background, 842 x 736 (pixels).  
-Correspondence between cell type names and images are in `images/celltype_to_image.csv`.
+Correspondence between cell type names and images is in `images/celltype_to_image.csv`.
 
 ## Other tables
 `tables/Basic_celltype_information.xlsx`: free text of basic cell type information.  
