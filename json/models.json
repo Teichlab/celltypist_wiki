@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2021-08-04 13:20:03.881578",
+  "last_update": "2021-10-23 13:20:03.881578",
   "models": [
     {
       "filename": "Immune_Blood_Low.pkl",
@@ -274,6 +274,22 @@
       "date": "2021-08-03 00:21:59.999710",
       "details": "immune sub-populations from the spleen",
       "No_celltypes": 22
+    },
+    {
+      "filename": "Cells_Lung_Airway.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Lung_Airway_Madissoon/Cells_Lung_Airway.pkl",
+      "version": "v1",
+      "date": "2021-10-22 03:32:55.416709",
+      "details": "cell populations from scRNA-seq of five locations of the human lungs and airways",
+      "No_celltypes": 77
+    },
+    {
+      "filename": "Nuclei_Lung_Airway.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Lung_Airway_Madissoon/Nuclei_Lung_Airway.pkl",
+      "version": "v1",
+      "date": "2021-10-22 14:36:22.078428",
+      "details": "cell populations from snRNA-seq of five locations of the human lungs and airways",
+      "No_celltypes": 77
     }
   ]
 }
