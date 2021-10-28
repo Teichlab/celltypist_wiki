@@ -1,5 +1,7 @@
 DC precursor
 Transitional DC
+Classical monocytes
+Non-classical monocytes
 Monocytes
 Neutrophils
 Monocyte precursor
@@ -38,6 +40,8 @@ CMP
 Megakaryocytes/platelets
 Early MK
 MAIT cells
+CD16+ NK cells
+CD16- NK cells
 NK cells
 Cytotoxic T cells
 Transitional NK
@@ -49,7 +53,7 @@ Tcm/Naive helper T cells
 Tcm/Naive cytotoxic T cells
 Early lymphoid/T lymphoid
 ILC precursor
-Plasmablasts
+Plasma cells
 Immature B cells
 Transitional B cells
 B cells
