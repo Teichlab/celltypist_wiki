@@ -16,8 +16,8 @@ python src/generate_encyclopedia_table.py
 The resulting table will stay in `encyclopedia/encyclopedia_table.xlsx`.
 
 ## Generate average and percent expression for gene expression heat map
-Adata should be log-normalised first (1e4). Tissue and cell type orders are defined in the `src/generate_Heatmap_data.py` and `Heatmap_data/celltype_order.txt`, respectively.  
-Cell types with <=5 cells from a tissue-celltype combination are thought as non-existing (black grids in the heat map).
+AnnData should be log-normalised first (1e4). Tissue and cell type orders are defined in the `src/generate_Heatmap_data.py` and `Heatmap_data/celltype_order.txt`, respectively. Currently tissue and cell type information is stored in `Tissue` and `re_harmonise_annotation` columns.  
+Cell types with <=10 cells from a tissue-celltype combination are thought as non-existing (black grids in the heat map).
 ```console
 python src/generate_Heatmap_data.py /path/to/adata
 ```
