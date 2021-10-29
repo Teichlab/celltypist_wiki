@@ -1,279 +1,263 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2021-10-23 13:20:03.881578",
+  "last_update": "2021-10-29 17:52:23.737743",
   "models": [
     {
-      "filename": "Immune_Blood_Low.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Blood_Low.pkl",
+      "filename": "Immune_All_High.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_All_High.pkl",
       "version": "v6",
-      "date": "2021-08-03 03:16:21.925741",
-      "details": "immune sub-populations from the blood",
-      "No_celltypes": 35
-    },
-    {
-      "filename": "Immune_Upperairway_Low.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Upperairway_Low.pkl",
-      "version": "v6",
-      "date": "2021-08-03 00:57:30.645173",
-      "details": "immune sub-populations from the upper airway",
-      "No_celltypes": 6
-    },
-    {
-      "filename": "Immune_Kidney_Low.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Kidney_Low.pkl",
-      "version": "v6",
-      "date": "2021-08-02 22:55:06.881350",
-      "details": "immune sub-populations from the kidney",
-      "No_celltypes": 11
+      "date": "2021-10-28 00:01:20.501686",
+      "details": "immune populations combined from different organs/tissues",
+      "No_celltypes": 32
     },
     {
       "filename": "Immune_All_Low.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_All_Low.pkl",
       "version": "v6",
-      "date": "2021-08-03 20:23:54.902884",
+      "date": "2021-10-27 15:20:55.163288",
       "details": "immune sub-populations combined from different organs/tissues",
-      "No_celltypes": 87,
+      "No_celltypes": 91,
       "default": true
-    },
-    {
-      "filename": "Immune_Upperairway_High.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Upperairway_High.pkl",
-      "version": "v6",
-      "date": "2021-08-03 00:57:31.263705",
-      "details": "immune populations from the upper airway",
-      "No_celltypes": 6
-    },
-    {
-      "filename": "Immune_Mesentericlymphnode_High.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Mesentericlymphnode_High.pkl",
-      "version": "v6",
-      "date": "2021-08-02 23:10:37.670324",
-      "details": "immune populations from the mesenteric lymph node",
-      "No_celltypes": 9
-    },
-    {
-      "filename": "Immune_Intestine_Low.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Intestine_Low.pkl",
-      "version": "v6",
-      "date": "2021-08-02 22:53:21.884602",
-      "details": "immune sub-populations from the intestine",
-      "No_celltypes": 9
-    },
-    {
-      "filename": "Immune_Oesophagus_High.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Oesophagus_High.pkl",
-      "version": "v6",
-      "date": "2021-08-02 23:10:49.399607",
-      "details": "immune populations from the oesophagus",
-      "No_celltypes": 5
-    },
-    {
-      "filename": "Immune_Colon_Low.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Colon_Low.pkl",
-      "version": "v6",
-      "date": "2021-08-02 22:54:01.169289",
-      "details": "immune sub-populations from the colon",
-      "No_celltypes": 24
-    },
-    {
-      "filename": "Immune_Liver_Low.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Liver_Low.pkl",
-      "version": "v6",
-      "date": "2021-08-02 23:12:25.415545",
-      "details": "immune sub-populations from the liver",
-      "No_celltypes": 24
-    },
-    {
-      "filename": "Immune_Thymus_Low.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Thymus_Low.pkl",
-      "version": "v6",
-      "date": "2021-08-03 01:08:38.249949",
-      "details": "immune sub-populations from the thymus",
-      "No_celltypes": 37
-    },
-    {
-      "filename": "Immune_Lung_Low.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Lung_Low.pkl",
-      "version": "v6",
-      "date": "2021-08-02 23:03:14.812815",
-      "details": "immune sub-populations from the lung",
-      "No_celltypes": 9
-    },
-    {
-      "filename": "Immune_Trachea_Low.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Trachea_Low.pkl",
-      "version": "v6",
-      "date": "2021-08-03 00:57:25.289547",
-      "details": "immune sub-populations from the trachea",
-      "No_celltypes": 5
-    },
-    {
-      "filename": "Immune_Colon_High.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Colon_High.pkl",
-      "version": "v6",
-      "date": "2021-08-02 23:00:55.633636",
-      "details": "immune populations from the colon",
-      "No_celltypes": 9
-    },
-    {
-      "filename": "Immune_Thymus_High.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Thymus_High.pkl",
-      "version": "v6",
-      "date": "2021-08-03 02:05:34.445470",
-      "details": "immune populations from the thymus",
-      "No_celltypes": 19
-    },
-    {
-      "filename": "Immune_Spleen_High.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Spleen_High.pkl",
-      "version": "v6",
-      "date": "2021-08-03 00:57:19.546574",
-      "details": "immune populations from the spleen",
-      "No_celltypes": 11
-    },
-    {
-      "filename": "Immune_Mesentericlymphnode_Low.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Mesentericlymphnode_Low.pkl",
-      "version": "v6",
-      "date": "2021-08-02 23:09:13.196468",
-      "details": "immune sub-populations from the mesenteric lymph node",
-      "No_celltypes": 19
-    },
-    {
-      "filename": "Immune_Omentumadiposetissue_Low.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Omentumadiposetissue_Low.pkl",
-      "version": "v6",
-      "date": "2021-08-02 23:11:01.327063",
-      "details": "immune sub-populations from the omentum adipose tissue",
-      "No_celltypes": 8
-    },
-    {
-      "filename": "Immune_Kidney_High.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Kidney_High.pkl",
-      "version": "v6",
-      "date": "2021-08-02 22:55:24.358982",
-      "details": "immune populations from the kidney",
-      "No_celltypes": 8
-    },
-    {
-      "filename": "Immune_Intestine_High.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Intestine_High.pkl",
-      "version": "v6",
-      "date": "2021-08-02 22:54:38.180917",
-      "details": "immune populations from the intestine",
-      "No_celltypes": 7
-    },
-    {
-      "filename": "Immune_Placenta_High.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Placenta_High.pkl",
-      "version": "v6",
-      "date": "2021-08-02 23:11:16.966451",
-      "details": "immune populations from the placenta",
-      "No_celltypes": 6
-    },
-    {
-      "filename": "Immune_Trachea_High.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Trachea_High.pkl",
-      "version": "v6",
-      "date": "2021-08-03 00:57:29.925967",
-      "details": "immune populations from the trachea",
-      "No_celltypes": 5
-    },
-    {
-      "filename": "Immune_All_High.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_All_High.pkl",
-      "version": "v6",
-      "date": "2021-08-04 05:31:38.501153",
-      "details": "immune populations combined from different organs/tissues",
-      "No_celltypes": 32
-    },
-    {
-      "filename": "Immune_Liver_High.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Liver_High.pkl",
-      "version": "v6",
-      "date": "2021-08-02 23:24:47.047556",
-      "details": "immune populations from the liver",
-      "No_celltypes": 15
     },
     {
       "filename": "Immune_Blood_High.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Blood_High.pkl",
       "version": "v6",
-      "date": "2021-08-03 04:36:05.943353",
+      "date": "2021-10-28 08:07:45.930436",
       "details": "immune populations from the blood",
+      "No_celltypes": 11
+    },
+    {
+      "filename": "Immune_Blood_Low.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Blood_Low.pkl",
+      "version": "v6",
+      "date": "2021-10-28 05:10:21.140469",
+      "details": "immune sub-populations from the blood",
+      "No_celltypes": 31
+    },
+    {
+      "filename": "Immune_Bonemarrow_High.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Bonemarrow_High.pkl",
+      "version": "v6",
+      "date": "2021-10-28 23:35:16.247330",
+      "details": "immune populations from the bone marrow",
       "No_celltypes": 17
     },
     {
       "filename": "Immune_Bonemarrow_Low.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Bonemarrow_Low.pkl",
       "version": "v6",
-      "date": "2021-08-03 02:10:07.630531",
+      "date": "2021-10-28 19:11:50.001620",
       "details": "immune sub-populations from the bone marrow",
-      "No_celltypes": 37
+      "No_celltypes": 39
     },
     {
-      "filename": "Immune_Decidua_Low.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Decidua_Low.pkl",
+      "filename": "Immune_Colon_High.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Colon_High.pkl",
       "version": "v6",
-      "date": "2021-08-02 22:50:49.616931",
-      "details": "immune sub-populations from the decidua",
-      "No_celltypes": 14
+      "date": "2021-10-28 14:48:31.970105",
+      "details": "immune populations from the colon",
+      "No_celltypes": 9
     },
     {
-      "filename": "Immune_Placenta_Low.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Placenta_Low.pkl",
+      "filename": "Immune_Colon_Low.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Colon_Low.pkl",
       "version": "v6",
-      "date": "2021-08-02 23:11:13.322131",
-      "details": "immune sub-populations from the placenta",
-      "No_celltypes": 6
+      "date": "2021-10-28 13:38:14.396141",
+      "details": "immune sub-populations from the colon",
+      "No_celltypes": 28
     },
     {
       "filename": "Immune_Decidua_High.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Decidua_High.pkl",
       "version": "v6",
-      "date": "2021-08-02 22:52:13.794238",
+      "date": "2021-10-28 22:42:21.746230",
       "details": "immune populations from the decidua",
-      "No_celltypes": 7
+      "No_celltypes": 6
     },
     {
-      "filename": "Immune_Oesophagus_Low.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Oesophagus_Low.pkl",
+      "filename": "Immune_Decidua_Low.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Decidua_Low.pkl",
       "version": "v6",
-      "date": "2021-08-02 23:10:45.466260",
-      "details": "immune sub-populations from the oesophagus",
+      "date": "2021-10-28 22:07:34.826870",
+      "details": "immune sub-populations from the decidua",
+      "No_celltypes": 16
+    },
+    {
+      "filename": "Immune_Intestine_High.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Intestine_High.pkl",
+      "version": "v6",
+      "date": "2021-10-28 14:57:22.316039",
+      "details": "immune populations from the intestine",
+      "No_celltypes": 6
+    },
+    {
+      "filename": "Immune_Intestine_Low.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Intestine_Low.pkl",
+      "version": "v6",
+      "date": "2021-10-28 14:52:50.767488",
+      "details": "immune sub-populations from the intestine",
+      "No_celltypes": 6
+    },
+    {
+      "filename": "Immune_Kidney_High.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Kidney_High.pkl",
+      "version": "v6",
+      "date": "2021-10-28 15:06:13.840967",
+      "details": "immune populations from the kidney",
       "No_celltypes": 8
     },
     {
-      "filename": "Immune_Bonemarrow_High.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Bonemarrow_High.pkl",
+      "filename": "Immune_Kidney_Low.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Kidney_Low.pkl",
       "version": "v6",
-      "date": "2021-08-03 03:34:18.046305",
-      "details": "immune populations from the bone marrow",
-      "No_celltypes": 19
+      "date": "2021-10-28 15:02:36.858305",
+      "details": "immune sub-populations from the kidney",
+      "No_celltypes": 14
+    },
+    {
+      "filename": "Immune_Liver_High.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Liver_High.pkl",
+      "version": "v6",
+      "date": "2021-10-29 04:38:31.750063",
+      "details": "immune populations from the liver",
+      "No_celltypes": 15
+    },
+    {
+      "filename": "Immune_Liver_Low.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Liver_Low.pkl",
+      "version": "v6",
+      "date": "2021-10-29 00:19:54.153950",
+      "details": "immune sub-populations from the liver",
+      "No_celltypes": 27
     },
     {
       "filename": "Immune_Lung_High.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Lung_High.pkl",
       "version": "v6",
-      "date": "2021-08-02 23:05:33.785503",
+      "date": "2021-10-29 00:50:27.721044",
       "details": "immune populations from the lung",
       "No_celltypes": 7
     },
     {
-      "filename": "Immune_Omentumadiposetissue_High.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Omentumadiposetissue_High.pkl",
+      "filename": "Immune_Lung_Low.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Lung_Low.pkl",
       "version": "v6",
-      "date": "2021-08-02 23:11:09.421361",
-      "details": "immune populations from the omentum adipose tissue",
+      "date": "2021-10-29 00:35:31.370376",
+      "details": "immune sub-populations from the lung",
+      "No_celltypes": 13
+    },
+    {
+      "filename": "Immune_Mesentericlymphnode_High.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Mesentericlymphnode_High.pkl",
+      "version": "v6",
+      "date": "2021-10-28 23:57:02.876627",
+      "details": "immune populations from the mesenteric lymph node",
+      "No_celltypes": 9
+    },
+    {
+      "filename": "Immune_Mesentericlymphnode_Low.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Mesentericlymphnode_Low.pkl",
+      "version": "v6",
+      "date": "2021-10-28 23:50:47.213268",
+      "details": "immune sub-populations from the mesenteric lymph node",
+      "No_celltypes": 21
+    },
+    {
+      "filename": "Immune_Oesophagus_High.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Oesophagus_High.pkl",
+      "version": "v6",
+      "date": "2021-10-28 23:57:39.575219",
+      "details": "immune populations from the oesophagus",
       "No_celltypes": 5
+    },
+    {
+      "filename": "Immune_Oesophagus_Low.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Oesophagus_Low.pkl",
+      "version": "v6",
+      "date": "2021-10-28 23:57:23.255770",
+      "details": "immune sub-populations from the oesophagus",
+      "No_celltypes": 7
+    },
+    {
+      "filename": "Immune_Placenta_High.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Placenta_High.pkl",
+      "version": "v6",
+      "date": "2021-10-28 23:58:19.980611",
+      "details": "immune populations from the placenta",
+      "No_celltypes": 5
+    },
+    {
+      "filename": "Immune_Placenta_Low.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Placenta_Low.pkl",
+      "version": "v6",
+      "date": "2021-10-28 23:58:01.226917",
+      "details": "immune sub-populations from the placenta",
+      "No_celltypes": 6
+    },
+    {
+      "filename": "Immune_Spleen_High.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Spleen_High.pkl",
+      "version": "v6",
+      "date": "2021-10-29 17:29:36.705008",
+      "details": "immune populations from the spleen",
+      "No_celltypes": 10
     },
     {
       "filename": "Immune_Spleen_Low.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Spleen_Low.pkl",
       "version": "v6",
-      "date": "2021-08-03 00:21:59.999710",
+      "date": "2021-10-29 10:31:43.341067",
       "details": "immune sub-populations from the spleen",
-      "No_celltypes": 22
+      "No_celltypes": 26
+    },
+    {
+      "filename": "Immune_Thymus_High.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Thymus_High.pkl",
+      "version": "v6",
+      "date": "2021-10-29 16:27:03.392968",
+      "details": "immune populations from the thymus",
+      "No_celltypes": 19
+    },
+    {
+      "filename": "Immune_Thymus_Low.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Thymus_Low.pkl",
+      "version": "v6",
+      "date": "2021-10-29 10:53:06.678624",
+      "details": "immune sub-populations from the thymus",
+      "No_celltypes": 40
+    },
+    {
+      "filename": "Immune_Trachea_High.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Trachea_High.pkl",
+      "version": "v6",
+      "date": "2021-10-29 04:39:33.321824",
+      "details": "immune populations from the trachea",
+      "No_celltypes": 5
+    },
+    {
+      "filename": "Immune_Trachea_Low.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Trachea_Low.pkl",
+      "version": "v6",
+      "date": "2021-10-29 04:39:06.897160",
+      "details": "immune sub-populations from the trachea",
+      "No_celltypes": 7
+    },
+    {
+      "filename": "Immune_Upperairway_High.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Upperairway_High.pkl",
+      "version": "v6",
+      "date": "2021-10-29 04:39:37.802367",
+      "details": "immune populations from the upper airway",
+      "No_celltypes": 4
+    },
+    {
+      "filename": "Immune_Upperairway_Low.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_Upperairway_Low.pkl",
+      "version": "v6",
+      "date": "2021-10-29 04:39:35.748029",
+      "details": "immune sub-populations from the upper airway",
+      "No_celltypes": 6
     },
     {
       "filename": "Cells_Lung_Airway.pkl",
