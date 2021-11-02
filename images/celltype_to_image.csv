@@ -46,6 +46,8 @@ ILC,ILC.png
 ILC1,ILC.png
 ILC2,ILC.png
 ILC3,ILC.png
+CD16+ NK cells,NK cells.png
+CD16- NK cells,NK cells.png
 NK cells,NK cells.png
 Transitional NK,NK cells.png
 ILC precursor,ILC.png
@@ -59,11 +61,13 @@ Megakaryocytes/platelets,Megakaryocyte.png
 MNP,cell.png
 Mono-mac,Monocytes.png
 Monocyte precursor,Monocytes.png
+Classical monocytes,Monocytes.png
+Non-classical monocytes,Monocytes.png
 Monocytes,Monocytes.png
 Myelocytes,cell.png
 pDC,DC.png
 pDC precursor,DC.png
-Plasmablasts,Plasmablasts.png
+Plasma cells,Plasmablasts.png
 Promyelocytes,cell.png
 CD8a/a,T cells.png
 CD8a/b(entry),T cells.png
