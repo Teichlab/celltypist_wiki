@@ -9,7 +9,7 @@ python src/generate_json_from_latest_models.py /path/to/local_model_folder
 New json file will stay in `json/models.json`. Upload to `s3://celltypist/models/`.
 
 ## Generate encyclopedia table with tissue, dataset, and marker information
-Cell types with <5 cells from a tissue-dataset combination are removed. Make sure the latest models are in `~/.celltypist/data/models/`.
+Cell types with <10 cells from a tissue-dataset combination are removed. Make sure the latest models are in `~/.celltypist/data/models/`.
 ```console
 python src/generate_encyclopedia_table.py
 ```
