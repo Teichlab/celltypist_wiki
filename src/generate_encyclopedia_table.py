@@ -3,16 +3,17 @@ import numpy as np
 
 #Tissue & Dataset
 TD = pd.read_csv('tables/celltypist_immune_meta.csv')
+assert TD.shape[0] == 738647
 #filter
-combine = TD.majority_voting_FS + TD.Tissue + TD.Dataset
+combine = TD.re_harmonise_annotation + TD.Tissue + TD.Dataset
 counts = combine.value_counts()
-keep = counts.index[counts >= 5]
+keep = counts.index[counts >= 10]
 TD = TD[np.isin(combine, keep)]
 #main
-celltypes = np.unique(TD.majority_voting_FS)
-assert len(celltypes) == 87
-tissues  = [', '.join(list(np.unique(TD.loc[TD.majority_voting_FS == celltype, 'Tissue']))) for celltype in celltypes]
-datasets = [', '.join(list(np.unique(TD.loc[TD.majority_voting_FS == celltype, 'Dataset']))) for celltype in celltypes]
+celltypes = np.unique(TD.re_harmonise_annotation)
+assert len(celltypes) == 91
+tissues  = [', '.join(list(np.unique(TD.loc[TD.re_harmonise_annotation == celltype, 'Tissue']))) for celltype in celltypes]
+datasets = [', '.join(list(np.unique(TD.loc[TD.re_harmonise_annotation == celltype, 'Dataset']))) for celltype in celltypes]
 df_TD = pd.DataFrame(dict(Tissues = tissues, Datasets = datasets), index = celltypes)
 
 #Top 10 markers
@@ -23,11 +24,11 @@ model = models.Model.load('Immune_All_Low.pkl')
 features = model.features
 celltypes = model.cell_types
 coef = model.classifier.coef_
-assert len(celltypes) == 87
+assert len(celltypes) == 91
 assert len(features) == coef.shape[1]
 assert len(celltypes) == coef.shape[0]
 #main
-gene_index = np.argpartition(coef, -10, axis = 1)[:, -10:]
+gene_index = np.argsort(-coef, axis = 1)[:, :10]
 gene_index = features[gene_index]
 gene_index = [", ".join(list(x)) for x in gene_index]
 df_T10 = pd.DataFrame(gene_index, index = celltypes, columns = ['Top 10 important genes from the Celltypist model'])
