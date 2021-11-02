@@ -29,5 +29,5 @@ Correspondence between cell type names and images is in `images/celltype_to_imag
 
 ## Other tables
 `tables/Basic_celltype_information.xlsx`: free text of basic cell type information.  
-`tables/celltypist_immune_meta.csv`: cell meta-information for deriving the tissue and dataset information: `adata.obs[['re_harmonise_annotation', 'Tissue', 'Dataset']].to_csv('celltypist_immune_meta.csv', header=True, index=False)`.
+`tables/celltypist_immune_meta.csv`: cell meta-information for deriving the tissue and dataset information: `adata.obs[['re_harmonise_annotation', 'Tissue', 'Dataset']].to_csv('celltypist_immune_meta.csv', header=True, index=False)`.  
 `tables/dataset_to_PMID.csv`: link/paper of each data set.
