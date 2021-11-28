@@ -1,7 +1,15 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2021-10-29 17:52:23.737743",
+  "last_update": "2021-11-28 13:20:57.741787",
   "models": [
+    {
+      "filename": "Immune_All_AddPIP.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Pan_Immune_Xu/Immune_All_AddPIP.pkl",
+      "version": "v1",
+      "date": "2021-11-28 10:28:46.548379",
+      "details": "immune cell types combined from >20 human tissues",
+      "No_celltypes": 101
+    },
     {
       "filename": "Immune_All_High.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/v6/Immune_All_High.pkl",
@@ -18,6 +26,14 @@
       "details": "immune sub-populations combined from different organs/tissues",
       "No_celltypes": 91,
       "default": true
+    },
+    {
+      "filename": "Immune_All_PIP.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Pan_Immune_Conde/Immune_All_PIP.pkl",
+      "version": "v1",
+      "date": "2021-11-27 02:11:55.324799",
+      "details": "immune cell types combined from 16 adult human tissues",
+      "No_celltypes": 41
     },
     {
       "filename": "Immune_Blood_High.pkl",
@@ -258,6 +274,14 @@
       "date": "2021-10-29 04:39:35.748029",
       "details": "immune sub-populations from the upper airway",
       "No_celltypes": 6
+    },
+    {
+      "filename": "Cells_Intestinal_Tract.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Intestinal_Tract_Elmentaite/Cells_Intestinal_Tract.pkl",
+      "version": "v1",
+      "date": "2021-11-10 12:02:27.264949",
+      "details": "intestinal cells from fetal, pediatric and adult human gut",
+      "No_celltypes": 134
     },
     {
       "filename": "Cells_Lung_Airway.pkl",
