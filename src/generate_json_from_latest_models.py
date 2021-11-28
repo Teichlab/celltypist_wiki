@@ -24,7 +24,7 @@ for each_model in all_models:
     filename = each_model
     url = model_load.description['url']
     #<-----------------------------Add version from here----------------------------->
-    if filename.startswith('Immune'):
+    if filename.startswith('Immune') and (filename != 'Immune_All_PIP.pkl') and (filename != 'Immune_All_AddPIP.pkl'):
         version = url[43:45]
     elif (filename == 'Cells_Lung_Airway.pkl') or (filename == 'Nuclei_Lung_Airway.pkl'):
         version = 'v1'
