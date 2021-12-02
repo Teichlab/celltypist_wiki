@@ -1,0 +1,20 @@
+Skin
+Tonsil
+Liver
+Placenta
+Decidua
+Lung
+Upper airway
+Trachea
+Thymus
+Eye
+Colon
+Mesenteric lymph node
+Intestine
+Oesophagus
+Kidney
+Spleen
+Omentum adipose tissue
+Lung-draining lymph node
+Blood
+Bone marrow
