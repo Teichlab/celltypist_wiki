@@ -37,8 +37,14 @@ def celltypist_AverageExpression_PercentExpression(adata,
 adata = sc.read(sys.argv[1])
 #sc.pp.normalize_total(adata, target_sum=1e4)
 #sc.pp.log1p(adata)
+#-----------------------> setting here
+tissue_column = 'Tissue'
+celltype_column = 're_harmonise_annotation'
 tissue_order = pd.read_csv('Heatmap_data/tissue_order.txt', header = None)[0].values
 celltype_order = pd.read_csv('Heatmap_data/celltype_order.txt', header = None)[0].values
-exp_pct = celltypist_AverageExpression_PercentExpression(adata, 'Tissue', 're_harmonise_annotation', tissue_order, celltype_order, False, 10)
+use_raw = False
+filter_out = 10
+#<----------------------- setting here
+exp_pct = celltypist_AverageExpression_PercentExpression(adata, tissue_column, celltype_column, tissue_order, celltype_order, use_raw, filter_out)
 with open('Heatmap_data/exp_pct_celltypist_immune.pkl', 'wb') as f:
     pickle.dump(exp_pct, f)
