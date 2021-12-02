@@ -6,6 +6,7 @@ Make sure that the latest models are uploaded to `s3://celltypist/models/*/`. Pu
 ```console
 python src/generate_json_from_latest_models.py /path/to/local_model_folder
 ```
+(Find all settings within the 'setting here' section)  
 New json file will stay in `json/models.json`. Upload to `s3://celltypist/models/`.
 
 ## Generate encyclopedia table with tissue, dataset, and marker information
