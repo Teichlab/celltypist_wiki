@@ -109,7 +109,7 @@ def write_database(df: pd.DataFrame, tissues, datasets):
     output_file = f'{ROOT_PATH}/encyclopedia/encyclopedia.db'
     print(f"[+] Writing database to {output_file}")
 
-    # Connect to the Encyclopedia database.
+    #Connect to the Encyclopedia database
     with sqlite3.connect(output_file, isolation_level=None) as db:
         cursor = db.cursor()
 
