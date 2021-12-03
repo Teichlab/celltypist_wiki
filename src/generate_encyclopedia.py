@@ -135,24 +135,24 @@ def write_database(df: pd.DataFrame, tissues, datasets):
             cursor.execute(datasets_insert, [dataset, pubmed_id, url])
         datasets = pd.read_sql_query('SELECT id_dataset, name FROM datasets', db, index_col='id_dataset')
 
-        # insert hight celltypes
+        # insert high cell types
         print("[+] Populating high/low cell type tables and linking tissues and datasets")
         for hhct in df['High-hierarchy cell types'].unique():
             hhct = hhct.strip()
             cursor.execute(high_herarchy_insert, [hhct])
             id_high = cursor.lastrowid
-            
-            # insert low celltypes
+
+            # insert low cell types
             for _, row in df[df['High-hierarchy cell types'] == hhct].iterrows():
                 low = row['Low-hierarchy cell types']
                 image = images.loc[low].image
                 cursor.execute(low_herarchy_insert, [
-                               id_high, low, 
-                               row['Description'], row['Cell Ontology ID'], 
-                               image ])
+                               id_high, low,
+                               row['Description'], row['Cell Ontology ID'],
+                               image])
                 id_low = cursor.lastrowid
 
-                # insert curated mareks
+                # insert curated markers
                 if not pd.isnull(row['Curated markers']):
                     for curated_marker in row['Curated markers'].split(','):
                         cursor.execute(curated_marker_insert, [
