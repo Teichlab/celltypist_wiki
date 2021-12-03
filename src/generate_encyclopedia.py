@@ -91,7 +91,7 @@ def write_excel(df: pd.DataFrame):
         df.to_excel(writer, sheet_name = "Main", index = False)
 
 
-def write_database(df: pd.DataFrame, tissues: list, datasets: list):
+def write_database(df: pd.DataFrame, tissues, datasets):
     """
     Write encyclopedia SQLite database
     """
