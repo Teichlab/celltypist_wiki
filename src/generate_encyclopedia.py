@@ -49,14 +49,14 @@ def generate_encyclopedia_data():
     print("[+] Running quick sanity check")
     assert len(celltypes) == NUMBER_OF_CELLS, "Wrong number of cell types in model. Make sure the {SELECTED_MODEL} is the right model/version"
 
-    #main
+    #Top 10 markers main
     gene_index = np.argsort(-coef, axis = 1)[:, :10]
     gene_index = features[gene_index]
     gene_index = [", ".join(list(x)) for x in gene_index]
     df_T10 = pd.DataFrame(gene_index, index = celltypes, columns = ['Top 10 important genes from the Celltypist model'])
 
     #Basic
-    print(f"[+] Reading basic celltype information from {BASIC_CELLTYPE_XLSX}")
+    print(f"[+] Reading basic cell type information from {BASIC_CELLTYPE_XLSX}")
     df_Basic = pd.read_excel(BASIC_CELLTYPE_XLSX)
     df_Basic.set_index('Low-hierarchy cell types', inplace=True, drop = False)
 
