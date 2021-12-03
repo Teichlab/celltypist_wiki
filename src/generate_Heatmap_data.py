@@ -3,6 +3,8 @@ import numpy as np
 import pickle
 import sys
 import scanpy as sc
+import os
+ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__),'..'))
 
 def celltypist_AverageExpression_PercentExpression(adata,
                                                    group1_by, group2_by,
@@ -40,8 +42,8 @@ adata = sc.read(sys.argv[1])
 #-----------------------> setting here
 tissue_column = 'Tissue'
 celltype_column = 're_harmonise_annotation'
-tissue_order = pd.read_csv('Heatmap_data/tissue_order.txt', header = None)[0].values
-celltype_order = pd.read_csv('Heatmap_data/celltype_order.txt', header = None)[0].values
+tissue_order = pd.read_csv(f'{ROOT_PATH}/Heatmap_data/tissue_order.txt', header = None)[0].values
+celltype_order = pd.read_csv(f'{ROOT_PATH}/Heatmap_data/celltype_order.txt', header = None)[0].values
 use_raw = False
 filter_out = 10
 #<----------------------- setting here
