@@ -48,5 +48,5 @@ use_raw = False
 filter_out = 10
 #<----------------------- setting here
 exp_pct = celltypist_AverageExpression_PercentExpression(adata, tissue_column, celltype_column, tissue_order, celltype_order, use_raw, filter_out)
-with open('Heatmap_data/exp_pct_celltypist_immune.pkl', 'wb') as f:
+with open(f'{ROOT_PATH}/Heatmap_data/exp_pct_celltypist_immune.pkl', 'wb') as f:
     pickle.dump(exp_pct, f)
