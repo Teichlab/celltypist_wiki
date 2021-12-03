@@ -61,7 +61,7 @@ def generate_encyclopedia_data():
     df_Basic.set_index('Low-hierarchy cell types', inplace=True, drop = False)
 
     #Order
-    print("[+] Group tissues, datasets and top 10 markers by low-hierarchy cell types")
+    print("[+] Grouping tissues, datasets and top 10 markers by low-hierarchy cell types")
     df_TD = df_TD.loc[df_Basic['Low-hierarchy cell types']]
     df_T10 = df_T10.loc[df_Basic['Low-hierarchy cell types']]
 
@@ -76,7 +76,8 @@ def generate_encyclopedia_data():
         ).join(
             df_T10[['Top 10 important genes from the Celltypist model']]
         )
-    
+
+    #write out
     write_excel(integrated_df)
     write_database(integrated_df, tissues=TD.Tissue.unique(), datasets=TD.Dataset.unique())
 
