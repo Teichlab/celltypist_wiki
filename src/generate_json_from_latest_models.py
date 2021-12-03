@@ -2,6 +2,7 @@ from celltypist import models
 import json
 from datetime import datetime
 import os
+ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__),'..'))
 import sys
 #------------> setting here
 default_model = 'Immune_All_Low.pkl'
@@ -45,5 +46,5 @@ for each_model in all_models:
 dict_["models"] = model_list
 
 #dump
-with open('json/models.json', 'w') as f:
+with open(f'{ROOT_PATH}/json/models.json', 'w') as f:
     json.dump(dict_, f, indent = 2)
