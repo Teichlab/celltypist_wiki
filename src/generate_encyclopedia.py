@@ -10,10 +10,10 @@ ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__),'..'))
 COUNTS_THRESHOLD = 10
 NUMBER_OF_CELLS = 91
 IMMUNE_META_SHAPE = 738647
-SELECTED_MODEL="Immune_All_Low.pkl"
-IMMUNE_META_CSV=f"{ROOT_PATH}/tables/celltypist_immune_meta.csv"
-BASIC_CELLTYPE_XLSX=f"{ROOT_PATH}/tables/Basic_celltype_information.xlsx"
-FINAL_ENCYCLOPEDIA_XLSX=f"{ROOT_PATH}/encyclopedia/encyclopedia_table.xlsx"
+SELECTED_MODEL = "Immune_All_Low.pkl"
+IMMUNE_META_CSV = f"{ROOT_PATH}/tables/celltypist_immune_meta.csv"
+BASIC_CELLTYPE_XLSX = f"{ROOT_PATH}/tables/Basic_celltype_information.xlsx"
+FINAL_ENCYCLOPEDIA_XLSX = f"{ROOT_PATH}/encyclopedia/encyclopedia_table.xlsx"
 
 def generate_encyclopedia_data() -> pd.DataFrame:
     """
