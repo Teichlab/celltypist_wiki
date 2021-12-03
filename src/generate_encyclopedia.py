@@ -32,14 +32,13 @@ def generate_encyclopedia_data():
     keep = counts.index[counts >= COUNTS_THRESHOLD]
     TD = TD[np.isin(combine, keep)]
 
-    #main
-    print("[+] Building celltypes dataframe with tissues and datasets joined")
+    #tissues & datasets
+    print("[+] Building the dataframe with tissues and datasets joined")
     celltypes = np.unique(TD.re_harmonise_annotation)
-    assert len(celltypes) ==  NUMBER_OF_CELLS, "Wrong numnber of cell types in meta file"
+    assert len(celltypes) ==  NUMBER_OF_CELLS, "Wrong number of cell types in the meta file"
     tissues  = [', '.join(list(np.unique(TD.loc[TD.re_harmonise_annotation == celltype, 'Tissue']))) for celltype in celltypes]
     datasets = [', '.join(list(np.unique(TD.loc[TD.re_harmonise_annotation == celltype, 'Dataset']))) for celltype in celltypes]
     df_TD = pd.DataFrame(dict(Tissues = tissues, Datasets = datasets), index = celltypes)
-
 
     #Top 10 markers
     print(f"[+] Retrieving model info from celltypist")    
