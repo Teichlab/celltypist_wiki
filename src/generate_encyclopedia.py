@@ -193,7 +193,7 @@ def write_database(df: pd.DataFrame, tissues, datasets):
 
 ## database related queries and structures
 create_tables = """
-    DROP TABLE IF EXISTS high_herarchy_cell_types; 
+    DROP TABLE IF EXISTS high_herarchy_cell_types;
     CREATE TABLE high_herarchy_cell_types (
         id_high INTEGER PRIMARY KEY AUTOINCREMENT,
         name TEXT
