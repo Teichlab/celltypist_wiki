@@ -41,16 +41,14 @@ def generate_encyclopedia_data():
     df_TD = pd.DataFrame(dict(Tissues = tissues, Datasets = datasets), index = celltypes)
 
     #Top 10 markers
-    print(f"[+] Retrieving model info from celltypist")    
+    print(f"[+] Retrieving model info from {SELECTED_MODEL}")
     model = models.Model.load(SELECTED_MODEL)
     features = model.features
     celltypes = model.cell_types
     coef = model.classifier.coef_
     print("[+] Running quick sanity check")
-    assert len(celltypes) == NUMBER_OF_CELLS, "Wrong numnber of cell types in model. Make sure the {SELECTED_MODEL} is the right model/version"
-    assert len(features) == coef.shape[1], "Model features info doesn't match Classifier features"
-    assert len(celltypes) == coef.shape[0], "Model celltypes info doesn't match Classifier celltypes"
-    
+    assert len(celltypes) == NUMBER_OF_CELLS, "Wrong number of cell types in model. Make sure the {SELECTED_MODEL} is the right model/version"
+
     #main
     gene_index = np.argsort(-coef, axis = 1)[:, :10]
     gene_index = features[gene_index]
