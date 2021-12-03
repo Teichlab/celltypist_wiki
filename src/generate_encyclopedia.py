@@ -160,7 +160,7 @@ def write_database(df: pd.DataFrame, tissues, datasets):
                 else:
                     print(f"[x] Missing curated markers for {low}")
 
-                # insert top 10 take the last column as the top 10 genes
+                # insert top 10 - take the last column as the top 10 genes
                 if not pd.isnull(row[-1]):
                     for top_10 in row[-1].split(','):
                         cursor.execute(top_10_insert, [id_low, top_10.strip()])
