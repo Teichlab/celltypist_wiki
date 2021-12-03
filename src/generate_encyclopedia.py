@@ -15,23 +15,22 @@ IMMUNE_META_CSV = f"{ROOT_PATH}/tables/celltypist_immune_meta.csv"
 BASIC_CELLTYPE_XLSX = f"{ROOT_PATH}/tables/Basic_celltype_information.xlsx"
 FINAL_ENCYCLOPEDIA_XLSX = f"{ROOT_PATH}/encyclopedia/encyclopedia_table.xlsx"
 
-def generate_encyclopedia_data() -> pd.DataFrame:
+def generate_encyclopedia_data():
     """
     Integrate data into a single encyclopedia DataFrame and write outputs (excel and sqlite)
     """
 
     #Tissue & Dataset
-    print(f"[+] Reading immune and meta data from {IMMUNE_META_CSV}")
+    print(f"[+] Reading meta data from {IMMUNE_META_CSV}")
     TD = pd.read_csv(IMMUNE_META_CSV)
     assert TD.shape[0] == IMMUNE_META_SHAPE
 
     #filter
-    print(f"[+] Fitlering data (keep counts >= {COUNTS_THRESHOLD})")
+    print(f"[+] Filtering data (keep counts >= {COUNTS_THRESHOLD} in a given tissue-dataset-celltype combination)")
     combine = TD.re_harmonise_annotation + TD.Tissue + TD.Dataset
     counts = combine.value_counts()
     keep = counts.index[counts >= COUNTS_THRESHOLD]
     TD = TD[np.isin(combine, keep)]
-
 
     #main
     print("[+] Building celltypes dataframe with tissues and datasets joined")
