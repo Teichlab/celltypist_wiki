@@ -14,7 +14,7 @@ Cell types with <10 cells from a tissue-dataset combination are removed. Make su
 ```console
 python src/generate_encyclopedia.py
 ```
-(Find all settings at the top)
+(Find all settings at the top)  
 The resulting table will stay in `encyclopedia/encyclopedia_table.xlsx`, and database in `encyclopedia/encyclopedia.db`.
 
 ## Generate average and percent expression for gene expression heat map
