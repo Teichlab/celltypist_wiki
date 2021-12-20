@@ -28,18 +28,12 @@ for each_model in all_models:
     model_load = models.Model.load(f"{model_folder}/{each_model}")
     filename = each_model
     url = model_load.description['url']
-    #<-----------------------------Add version from here----------------------------->
-    if filename.startswith('Immune') and (filename != 'Immune_All_PIP.pkl') and (filename != 'Immune_All_AddPIP.pkl'):
-        version = url[43:45]
-    elif (filename == 'Cells_Lung_Airway.pkl') or (filename == 'Nuclei_Lung_Airway.pkl'):
-        version = 'v1'
-    else:
-        version = 'v1'
-    #<-----------------------------Add version end here----------------------------->
+    version = model_load.description['version']
     date = model_load.description['date']
     details = model_load.description['details']
     number_celltypes = model_load.description['number_celltypes']
-    each_info = {"filename": filename, "url": url, "version": version, "date": date, "details": details, "No_celltypes": number_celltypes}
+    source = model_load.description['source']
+    each_info = {"filename": filename, "url": url, "version": version, "date": date, "details": details, "No_celltypes": number_celltypes, "source": source}
     if filename == default_model:
         each_info['default'] = True
     model_list.append(each_info)
