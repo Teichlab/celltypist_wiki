@@ -98,17 +98,17 @@ def write_database(df: pd.DataFrame, tissues, datasets):
     Write encyclopedia SQLite database
     """
 
-    images_file = f'{ROOT_PATH}/images/celltype_to_image.csv'
+    images_file = f'{ROOT_PATH}/atlases/{atlas}/tables/celltype_to_image.csv'
     print(f"[+] Reading image mapping from {images_file}")
     images = pd.read_csv(images_file, index_col=0, header=None)
     images.columns=["image"]
 
-    extra_dataset_info_file = f'{ROOT_PATH}/tables/dataset_to_PMID.csv'
+    extra_dataset_info_file = f'{ROOT_PATH}/atlases/{atlas}/tables/dataset_to_PMID.csv'
     print(f"[+] Reading extra info for datasets from {extra_dataset_info_file}")
     datasets_extra = pd.read_csv(extra_dataset_info_file, index_col=0, header=None)
     datasets_extra.columns=["PMID"]
 
-    output_file = f'{ROOT_PATH}/encyclopedia/encyclopedia.db'
+    output_file = f'{ROOT_PATH}/atlases/{atlas}/encyclopedia/encyclopedia.db'
     print(f"[+] Writing database to {output_file}")
 
     #Connect to the Encyclopedia database
