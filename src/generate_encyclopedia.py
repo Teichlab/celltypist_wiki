@@ -4,16 +4,18 @@ import sqlite3
 import pandas as pd
 import numpy as np
 from celltypist import models
-
+import sys
+atlas = sys.argv[1]
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__),'..'))
-
-COUNTS_THRESHOLD = 10
-NUMBER_OF_CELLS = 91
-IMMUNE_META_SHAPE = 738647
-SELECTED_MODEL = "Immune_All_Low.pkl"
-IMMUNE_META_CSV = f"{ROOT_PATH}/tables/celltypist_immune_meta.csv"
-BASIC_CELLTYPE_XLSX = f"{ROOT_PATH}/tables/Basic_celltype_information.xlsx"
-FINAL_ENCYCLOPEDIA_XLSX = f"{ROOT_PATH}/encyclopedia/encyclopedia_table.xlsx"
+#setting->
+setting = pd.read_csv(f"{ROOT_PATH}/atlases/{atlas}/config/Encyclo.config", header = None, index_col = 0)
+META_CSV = f"{ROOT_PATH}/atlases/{atlas}/tables/celltypist_meta.csv"
+COUNTS_THRESHOLD = int(setting.loc['filter_out', 1])
+SELECTED_MODEL = setting.loc['model', 1]
+NUMBER_OF_CELLS = int(setting.loc['no_celltypes', 1])
+BASIC_CELLTYPE_XLSX = f"{ROOT_PATH}/atlases/{atlas}/tables/Basic_celltype_information.xlsx"
+FINAL_ENCYCLOPEDIA_XLSX = f"{ROOT_PATH}/atlases/{atlas}/encyclopedia/encyclopedia_table.xlsx"
+#<-setting
 
 def generate_encyclopedia_data():
     """
@@ -21,9 +23,8 @@ def generate_encyclopedia_data():
     """
 
     #Tissue & Dataset
-    print(f"[+] Reading meta data from {IMMUNE_META_CSV}")
-    TD = pd.read_csv(IMMUNE_META_CSV)
-    assert TD.shape[0] == IMMUNE_META_SHAPE
+    print(f"[+] Reading meta data from {META_CSV}")
+    TD = pd.read_csv(META_CSV)
 
     #filter
     print(f"[+] Filtering data (keep counts >= {COUNTS_THRESHOLD} in a given tissue-dataset-celltype combination)")
