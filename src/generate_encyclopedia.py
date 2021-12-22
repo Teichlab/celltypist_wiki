@@ -25,6 +25,7 @@ def generate_encyclopedia_data():
     #Tissue & Dataset
     print(f"[+] Reading meta data from {META_CSV}")
     TD = pd.read_csv(META_CSV)
+    TD.columns = ['re_harmonise_annotation', 'Tissue', 'Dataset']
 
     #filter
     print(f"[+] Filtering data (keep counts >= {COUNTS_THRESHOLD} in a given tissue-dataset-celltype combination)")
