@@ -28,7 +28,8 @@ All settings can be found in the configuration file specific to each atlas (`atl
    3) `celltype_column`: cell metadata column specifying cell type information.
    4) `use_raw`: whether to use the `.raw` attribute for expression matrix in the AnnData.
    5) `filter_out`:  cell types with <=`filter_out` cells from a tissue-celltype combination are thought as non-existing (black grids in the heat map).
-   6) `do_normalize`: log-normalise (to 1e4) the data if the AnnData is provided in raw counts.
+   6) `do_normalize`: log-normalise (to 1e4) the data if the AnnData is provided in raw counts.  
+  
 Tissue and cell type orders are defined in the `atlases/an_atlas_name/Heatmap_data/tissue_order.txt` and `atlases/an_atlas_name/Heatmap_data/celltype_order.txt`, respectively.  
 Heatmap data will stay in `atlases/an_atlas_name/Heatmap_data/exp_pct_celltypist.pkl`. Upload to `s3://celltypist/Heatmap_data/an_atlas_name/`.
 
