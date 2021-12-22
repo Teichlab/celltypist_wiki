@@ -55,7 +55,7 @@ def generate_encyclopedia_data():
     gene_index = np.argsort(-coef, axis = 1)[:, :10]
     gene_index = features[gene_index]
     gene_index = [", ".join(list(x)) for x in gene_index]
-    df_T10 = pd.DataFrame(gene_index, index = celltypes, columns = ['Top 10 important genes from the Celltypist model'])
+    df_T10 = pd.DataFrame(gene_index, index = celltypes, columns = ['Top 10 important genes from the CellTypist model'])
 
     #Basic
     print(f"[+] Reading basic cell type information from {BASIC_CELLTYPE_XLSX}")
@@ -76,7 +76,7 @@ def generate_encyclopedia_data():
         ).join(
             df_Basic[['Curated markers']]
         ).join(
-            df_T10[['Top 10 important genes from the Celltypist model']]
+            df_T10[['Top 10 important genes from the CellTypist model']]
         )
 
     #write out
