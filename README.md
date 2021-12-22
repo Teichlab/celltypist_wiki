@@ -38,6 +38,8 @@ Images are in `images/*.png`. White background, 842 x 736 (pixels).
 Correspondence between cell type names and images for a given atlas is in `atlases/an_atlas_name/tables/celltype_to_image.csv`.
 
 ## Other tables
-`tables/Basic_celltype_information.xlsx`: free text of basic cell type information.  
-`tables/celltypist_immune_meta.csv`: cell meta-information for deriving the tissue and dataset information: `adata.obs[['re_harmonise_annotation', 'Tissue', 'Dataset']].to_csv('celltypist_immune_meta.csv', header=True, index=False)`.  
-`tables/dataset_to_PMID.csv`: link/paper of each data set.
+`atlases/an_atlas_name/tables/Basic_celltype_information.xlsx`: free text of basic cell type information.  
+  
+`atlases/an_atlas_name/tables/celltypist_meta.csv`: cell meta-information for deriving the tissue and dataset information (e.g. `adata.obs[['CellType', 'Tissue', 'Dataset']].to_csv('celltypist_meta.csv', header=True, index=False)`).  
+  
+`atlases/an_atlas_name/tables/dataset_to_PMID.csv`: link/paper of each data set.
