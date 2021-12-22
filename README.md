@@ -18,13 +18,19 @@ python src/generate_encyclopedia.py
 The resulting table will stay in `encyclopedia/encyclopedia_table.xlsx`, and database in `encyclopedia/encyclopedia.db`.
 
 ## Generate average and percent expression for gene expression heat map
-AnnData should be log-normalised first (1e4). Tissue and cell type orders are defined in the `Heatmap_data/tissue_order.txt` and `Heatmap_data/celltype_order.txt`, respectively. Currently tissue and cell type information is stored in `Tissue` and `re_harmonise_annotation` columns.  
-Cell types with <=10 cells from a tissue-celltype combination are thought as non-existing (black grids in the heat map).  
-(Find all settings within the 'setting here' section)
+Run the following command with the atlas name (e.g. `Pan_Immune_CellTypist`).
 ```console
-python src/generate_Heatmap_data.py /path/to/adata
+python src/generate_Heatmap_data.py an_atlas_name
 ```
-Heatmap data will stay in `Heatmap_data/exp_pct_celltypist_immune.pkl`. Upload to `s3://celltypist/Heatmap_data/`.
+All settings can be found in the configuration file specific to each atlas (`atlases/an_atlas_name/config/Heatmap.config`), including:
+   1) `adata_path`: path to the AnnData.
+   2) `tissue_column`: cell metadata column specifying tissue/organ information.
+   3) `celltype_column`: cell metadata column specifying cell type information.
+   4) `use_raw`: whether to use the `.raw` attribute for expression matrix in the AnnData.
+   5) `filter_out`:  cell types with <=`filter_out` cells from a tissue-celltype combination are thought as non-existing (black grids in the heat map).
+   6) `do_normalize`: log-normalise (to 1e4) the data if the AnnData is provided in raw counts.
+Tissue and cell type orders are defined in the `atlases/an_atlas_name/Heatmap_data/tissue_order.txt` and `atlases/an_atlas_name/Heatmap_data/celltype_order.txt`, respectively.  
+Heatmap data will stay in `atlases/an_atlas_name/Heatmap_data/exp_pct_celltypist.pkl`. Upload to `s3://celltypist/Heatmap_data/an_atlas_name/`.
 
 ## Images
 Images are in `images/*.png`. White background, 842 x 736 (pixels).  
