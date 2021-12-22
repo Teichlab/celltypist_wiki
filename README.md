@@ -38,11 +38,11 @@ Heatmap data will stay in `atlases/an_atlas_name/Heatmap_data/exp_pct_celltypist
 ## Images
 Images are in `images/*.png`. White background, 842 x 736 (pixels).  
   
-Correspondence between cell type names and images for a given atlas is in `atlases/an_atlas_name/tables/celltype_to_image.csv`.
+Correspondence between cell type names and images for a given atlas is in `atlases/an_atlas_name/tables/celltype_to_image.csv` (no headers).
 
 ## Other tables
-`atlases/an_atlas_name/tables/Basic_celltype_information.xlsx`: free text of basic cell type information.  
+`atlases/an_atlas_name/tables/Basic_celltype_information.xlsx`: free text of basic cell type information. Headers must be `High-hierarchy cell types`, `Low-hierarchy cell types`, `Description`, `Cell Ontology ID` and `Curated markers`.  
   
-`atlases/an_atlas_name/tables/celltypist_meta.csv`: cell meta-information for deriving the tissue and dataset information (e.g. `adata.obs[['CellType', 'Tissue', 'Dataset']].to_csv('celltypist_meta.csv', header=True, index=False)`).  
+`atlases/an_atlas_name/tables/celltypist_meta.csv`: cell meta-information for deriving the tissue and dataset information (e.g. `adata.obs[['CellType', 'Tissue', 'Dataset']].to_csv('celltypist_meta.csv', header=True, index=False)`). Header names are arbitrary, but should be in such a order (<-).  
   
-`atlases/an_atlas_name/tables/dataset_to_PMID.csv`: link/paper of each data set.
+`atlases/an_atlas_name/tables/dataset_to_PMID.csv`: link/paper of each data set. No headers. Datasets without available PMIDs can have urls instead.
