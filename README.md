@@ -11,12 +11,18 @@ python src/generate_json_from_latest_models.py /path/to/local_model_folder
 New json file will stay in `json/models.json`. Upload to `s3://celltypist/models/`.
 
 ## Generate encyclopedia database with tissue, dataset, and marker information
-Cell types with <10 cells from a tissue-dataset combination are removed. Make sure the latest models are in `~/.celltypist/data/models/`.
+Run the following command with the atlas name (e.g. `Pan_Immune_CellTypist`).
 ```console
-python src/generate_encyclopedia.py
+python src/generate_encyclopedia.py an_atlas_name
 ```
-(Find all settings at the top)  
-The resulting table will stay in `encyclopedia/encyclopedia_table.xlsx`, and database in `encyclopedia/encyclopedia.db`.
+All settings can be found in the configuration file specific to each atlas (`atlases/an_atlas_name/config/Encyclo.config`), including:
+   1) `filter_out`: cell types with <`filter_out` cells from a tissue-dataset combination are removed (no such cell type in the given tissue and dataset).
+   2) `model`: model to extract top marker genes. Make sure the model of interest is exported in CellTypist.
+   3) `no_celltypes`: number of cell types to double-check with the meta csv file and with the model.  
+  
+Details of the four tables specific to each atlas used during the execution can be found in the sections below (`Images` and `Other tables`).  
+  
+The resulting table will stay in `atlases/an_atlas_name/encyclopedia/encyclopedia_table.xlsx`, and database in `atlases/an_atlas_name/encyclopedia/encyclopedia.db`.
 
 ## Generate average and percent expression for gene expression heat map
 Run the following command with the atlas name (e.g. `Pan_Immune_CellTypist`).
