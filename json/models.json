@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-01-24 11:32:19.375197",
+  "last_update": "2022-01-25 14:05:17.127743",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -56,6 +56,15 @@
       "details": "cell populations from scRNA-seq of five locations of the human lungs and airways",
       "No_celltypes": 77,
       "source": "https://doi.org/10.1101/2021.11.26.470108"
+    },
+    {
+      "filename": "Developing_Mouse_Brain.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Mouse_Devbrain_Manno/v1/Developing_Mouse_Brain.pkl",
+      "version": "v1",
+      "date": "2022-01-25 09:00:56.249989",
+      "details": "cell types from the embryonic mouse brain between gastrulation and birth",
+      "No_celltypes": 174,
+      "source": "https://doi.org/10.1038/s41586-021-03775-x"
     },
     {
       "filename": "Nuclei_Lung_Airway.pkl",
