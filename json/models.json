@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-03-10 10:31:43.228145",
+  "last_update": "2022-03-14 10:59:38.464612",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -83,6 +83,15 @@
       "details": "peripheral blood mononuclear cell types from healthy and COVID-19 individuals",
       "No_celltypes": 51,
       "source": "https://doi.org/10.1038/s41591-021-01329-2"
+    },
+    {
+      "filename": "Human_Lung_Atlas.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Lung_Sikkema/v1/Human_Lung_Atlas.pkl",
+      "version": "v1",
+      "date": "2022-02-26 01:55:18.658513",
+      "details": "integrated Human Lung Cell Atlas (HLCA) combining 46 datasets of the human respiratory system",
+      "No_celltypes": 58,
+      "source": "https://doi.org/10.1101/2022.03.10.483747"
     },
     {
       "filename": "Nuclei_Lung_Airway.pkl",
