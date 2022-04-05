@@ -1,22 +1,22 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-03-14 10:59:38.464612",
+  "last_update": "2022-04-05 10:35:56.370991",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/Pan_Immune_CellTypist/v1/Immune_All_Low.pkl",
-      "version": "v1",
-      "date": "2021-10-27 15:20:55.163288",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Pan_Immune_CellTypist/v2/Immune_All_Low.pkl",
+      "version": "v2",
+      "date": "2022-04-04 23:51:15.159293",
       "details": "immune sub-populations combined from 20 tissues of 19 studies",
-      "No_celltypes": 91,
+      "No_celltypes": 90,
       "source": "https://doi.org/10.1101/2021.04.28.441762",
       "default": true
     },
     {
       "filename": "Immune_All_High.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/Pan_Immune_CellTypist/v1/Immune_All_High.pkl",
-      "version": "v1",
-      "date": "2021-10-28 00:01:20.501686",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Pan_Immune_CellTypist/v2/Immune_All_High.pkl",
+      "version": "v2",
+      "date": "2022-04-05 02:21:38.947935",
       "details": "immune populations combined from 20 tissues of 19 studies",
       "No_celltypes": 32,
       "source": "https://doi.org/10.1101/2021.04.28.441762"
