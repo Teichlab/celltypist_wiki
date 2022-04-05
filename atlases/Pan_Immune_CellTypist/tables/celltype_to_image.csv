@@ -4,8 +4,8 @@ Germinal center B cells,B cells.png
 Memory B cells,B cells.png
 Naive B cells,B cells.png
 Transitional B cells,B cells.png
-Immature B cells,B cells.png
-Pre-B cells,B cells.png
+Large pre-B cells,B cells.png
+Small pre-B cells,B cells.png
 Pre-pro-B cells,B cells.png
 Pro-B cells,B cells.png
 Cycling B cells,B cells.png
@@ -71,19 +71,18 @@ Plasma cells,Plasmablasts.png
 Promyelocytes,cell.png
 CD8a/a,T cells.png
 CD8a/b(entry),T cells.png
-Cytotoxic T cells,T cells.png
 Follicular helper T cells,T cells.png
 gamma-delta T cells,T cells.png
-Helper T cells,T cells.png
 MAIT cells,T cells.png
 Memory CD4+ cytotoxic T cells,T cells.png
 NKT cells,T cells.png
 Regulatory T cells,T cells.png
-T cells,T cells.png
 T(agonist),T cells.png
 Tcm/Naive cytotoxic T cells,T cells.png
 Tcm/Naive helper T cells,T cells.png
-Tem/Effector cytotoxic T cells,T cells.png
+Tem/Trm cytotoxic T cells,T cells.png
+Tem/Temra cytotoxic T cells,T cells.png
+Trm cytotoxic T cells,T cells.png
 Tem/Effector helper T cells,T cells.png
 Tem/Effector helper T cells PD1+,T cells.png
 Treg(diff),T cells.png
