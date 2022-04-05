@@ -25,36 +25,33 @@ DC2
 DC
 Cycling DCs
 Cycling monocytes
-Late erythroid
 Erythrocytes
-Mid erythroid
 Early erythroid
+Mid erythroid
+Late erythroid
 Megakaryocyte-erythroid-mast cell progenitor
 Neutrophil-myeloid progenitor
 ELP
 MEMP
-Megakaryocyte precursor
 HSC/MPP
 GMP
 CMP
-Megakaryocytes/platelets
+Megakaryocyte precursor
 Early MK
+Megakaryocytes/platelets
 MAIT cells
 CD16+ NK cells
 CD16- NK cells
 NK cells
-Cytotoxic T cells
 Transitional NK
 pDC
 Regulatory T cells
-T cells
 Tem/Effector helper T cells
 Tcm/Naive helper T cells
 Tcm/Naive cytotoxic T cells
 Early lymphoid/T lymphoid
 ILC precursor
 Plasma cells
-Immature B cells
 Transitional B cells
 B cells
 Follicular B cells
@@ -67,8 +64,9 @@ Cycling B cells
 Germinal center B cells
 pDC precursor
 Pre-pro-B cells
-Pre-B cells
 Pro-B cells
+Large pre-B cells
+Small pre-B cells
 ILC1
 ILC2
 T(agonist)
@@ -80,11 +78,12 @@ gamma-delta T cells
 Double-negative thymocytes
 Type 1 helper T cells
 Type 17 helper T cells
-Helper T cells
 Follicular helper T cells
 ILC
 NKT cells
-Tem/Effector cytotoxic T cells
+Tem/Trm cytotoxic T cells
+Tem/Temra cytotoxic T cells
+Trm cytotoxic T cells
 ILC3
 Memory CD4+ cytotoxic T cells
 Treg(diff)
