@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-04-05 10:35:56.370991",
+  "last_update": "2022-04-08 19:58:13.173637",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -40,6 +40,15 @@
       "source": "https://doi.org/10.1101/2021.04.28.441762"
     },
     {
+      "filename": "COVID19_Immune_Landscape.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/COVID19_Immune_Ren/v1/COVID19_Immune_Landscape.pkl",
+      "version": "v1",
+      "date": "2022-04-08 02:01:02.730893",
+      "details": "immune subtypes from lung and blood of COVID-19 patients and healthy controls",
+      "No_celltypes": 64,
+      "source": "https://doi.org/10.1016/j.cell.2021.01.053"
+    },
+    {
       "filename": "Cells_Fetal_Lung.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/Fetal_Lung_He/v1/Cells_Fetal_Lung.pkl",
       "version": "v1",
@@ -59,11 +68,11 @@
     },
     {
       "filename": "Cells_Lung_Airway.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/Lung_Airway_Madissoon/v1/Cells_Lung_Airway.pkl",
-      "version": "v1",
-      "date": "2021-10-22 03:32:55.416709",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Lung_Airway_Madissoon/v2/Cells_Lung_Airway.pkl",
+      "version": "v2",
+      "date": "2022-04-08 14:20:45.627667",
       "details": "cell populations from scRNA-seq of five locations of the human lungs and airways",
-      "No_celltypes": 77,
+      "No_celltypes": 78,
       "source": "https://doi.org/10.1101/2021.11.26.470108"
     },
     {
@@ -95,11 +104,11 @@
     },
     {
       "filename": "Nuclei_Lung_Airway.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/Lung_Airway_Madissoon/v1/Nuclei_Lung_Airway.pkl",
-      "version": "v1",
-      "date": "2021-10-22 14:36:22.078428",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Lung_Airway_Madissoon/v2/Nuclei_Lung_Airway.pkl",
+      "version": "v2",
+      "date": "2022-04-08 16:21:30.325077",
       "details": "cell populations from snRNA-seq of five locations of the human lungs and airways",
-      "No_celltypes": 77,
+      "No_celltypes": 78,
       "source": "https://doi.org/10.1101/2021.11.26.470108"
     },
     {
