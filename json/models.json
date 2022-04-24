@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-04-15 11:13:19.782519",
+  "last_update": "2022-04-24 12:53:20.340935",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -115,7 +115,7 @@
       "filename": "Pan_Fetal_Human.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/Pan_Fetal_Suo/v2/Pan_Fetal_Human.pkl",
       "version": "v2",
-      "date": "2022-04-14 22:25:50.319574",
+      "date": "2022-04-23 11:40:27.484223",
       "details": "stromal and immune populations from the human fetus",
       "No_celltypes": 138,
       "source": "https://doi.org/10.1101/2022.01.17.476665"
