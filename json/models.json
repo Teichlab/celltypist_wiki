@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-04-24 12:53:20.340935",
+  "last_update": "2022-05-12 14:43:51.162921",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -9,7 +9,7 @@
       "date": "2022-04-04 23:51:15.159293",
       "details": "immune sub-populations combined from 20 tissues of 19 studies",
       "No_celltypes": 90,
-      "source": "https://doi.org/10.1101/2021.04.28.441762",
+      "source": "https://doi.org/10.1126/science.abl5197",
       "default": true
     },
     {
@@ -19,7 +19,7 @@
       "date": "2022-04-05 02:21:38.947935",
       "details": "immune populations combined from 20 tissues of 19 studies",
       "No_celltypes": 32,
-      "source": "https://doi.org/10.1101/2021.04.28.441762"
+      "source": "https://doi.org/10.1126/science.abl5197"
     },
     {
       "filename": "Immune_All_PIP.pkl",
@@ -28,7 +28,7 @@
       "date": "2021-11-27 02:11:55.324799",
       "details": "immune cell types combined from 16 adult human tissues",
       "No_celltypes": 41,
-      "source": "https://doi.org/10.1101/2021.04.28.441762"
+      "source": "https://doi.org/10.1126/science.abl5197"
     },
     {
       "filename": "Immune_All_AddPIP.pkl",
@@ -37,7 +37,7 @@
       "date": "2021-11-28 10:28:46.548379",
       "details": "immune cell types combined from >20 human tissues (Immune_All_Low + Immune_All_PIP)",
       "No_celltypes": 101,
-      "source": "https://doi.org/10.1101/2021.04.28.441762"
+      "source": "https://doi.org/10.1126/science.abl5197"
     },
     {
       "filename": "COVID19_Immune_Landscape.pkl",
@@ -118,7 +118,7 @@
       "date": "2022-04-23 11:40:27.484223",
       "details": "stromal and immune populations from the human fetus",
       "No_celltypes": 138,
-      "source": "https://doi.org/10.1101/2022.01.17.476665"
+      "source": "https://doi.org/10.1126/science.abo0510"
     }
   ]
 }
