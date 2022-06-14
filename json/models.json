@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-05-12 14:43:51.162921",
+  "last_update": "2022-06-14 22:39:09.262124",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -38,6 +38,15 @@
       "details": "immune cell types combined from >20 human tissues (Immune_All_Low + Immune_All_PIP)",
       "No_celltypes": 101,
       "source": "https://doi.org/10.1126/science.abl5197"
+    },
+    {
+      "filename": "Adult_Mouse_Gut.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Mouse_Gut_Casado/v1/Adult_Mouse_Gut.pkl",
+      "version": "v1",
+      "date": "2021-12-08 15:08:41.515242",
+      "details": "cell types in the adult mouse gut combined from seven datasets",
+      "No_celltypes": "134",
+      "source": "TBD"
     },
     {
       "filename": "COVID19_Immune_Landscape.pkl",
