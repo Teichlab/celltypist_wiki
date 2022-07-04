@@ -6,13 +6,14 @@ import scanpy as sc
 import os
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__),'..'))
 atlas = sys.argv[1]
+version = sys.argv[2]
 #setting->
-setting = pd.read_csv(f"{ROOT_PATH}/atlases/{atlas}/config/Heatmap.config", header = None, index_col = 0)
+setting = pd.read_csv(f"{ROOT_PATH}/atlases/{atlas}/{version}/config/Heatmap.config", header = None, index_col = 0)
 adata = sc.read(setting.loc['adata_path', 1])
 tissue_column = setting.loc['tissue_column', 1]
 celltype_column = setting.loc['celltype_column', 1]
-tissue_order = pd.read_csv(f'{ROOT_PATH}/atlases/{atlas}/Heatmap_data/tissue_order.txt', header = None)[0].values
-celltype_order = pd.read_csv(f'{ROOT_PATH}/atlases/{atlas}/Heatmap_data/celltype_order.txt', header = None)[0].values
+tissue_order = pd.read_csv(f'{ROOT_PATH}/atlases/{atlas}/{version}/Heatmap_data/tissue_order.txt', header = None)[0].values
+celltype_order = pd.read_csv(f'{ROOT_PATH}/atlases/{atlas}/{version}/Heatmap_data/celltype_order.txt', header = None)[0].values
 use_raw = setting.loc['use_raw', 1]
 filter_out = int(setting.loc['filter_out', 1])
 do_normalize = setting.loc['do_normalize', 1]
@@ -51,5 +52,5 @@ if do_normalize in ['true', 'True', 'TRUE']:
     sc.pp.normalize_total(adata, target_sum=1e4)
     sc.pp.log1p(adata)
 exp_pct = celltypist_AverageExpression_PercentExpression(adata, tissue_column, celltype_column, tissue_order, celltype_order, use_raw, filter_out)
-with open(f'{ROOT_PATH}/atlases/{atlas}/Heatmap_data/exp_pct_celltypist.pkl', 'wb') as f:
+with open(f'{ROOT_PATH}/atlases/{atlas}/{version}/Heatmap_data/exp_pct_celltypist.pkl', 'wb') as f:
     pickle.dump(exp_pct, f)

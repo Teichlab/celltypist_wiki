@@ -6,15 +6,16 @@ import numpy as np
 from celltypist import models
 import sys
 atlas = sys.argv[1]
+version = sys.argv[2]
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__),'..'))
 #setting->
-setting = pd.read_csv(f"{ROOT_PATH}/atlases/{atlas}/config/Encyclo.config", header = None, index_col = 0)
-META_CSV = f"{ROOT_PATH}/atlases/{atlas}/tables/celltypist_meta.csv"
+setting = pd.read_csv(f"{ROOT_PATH}/atlases/{atlas}/{version}/config/Encyclo.config", header = None, index_col = 0)
+META_CSV = f"{ROOT_PATH}/atlases/{atlas}/{version}/tables/celltypist_meta.csv"
 COUNTS_THRESHOLD = int(setting.loc['filter_out', 1])
 SELECTED_MODEL = setting.loc['model', 1]
 NUMBER_OF_CELLS = int(setting.loc['no_celltypes', 1])
-BASIC_CELLTYPE_XLSX = f"{ROOT_PATH}/atlases/{atlas}/tables/Basic_celltype_information.xlsx"
-FINAL_ENCYCLOPEDIA_XLSX = f"{ROOT_PATH}/atlases/{atlas}/encyclopedia/encyclopedia_table.xlsx"
+BASIC_CELLTYPE_XLSX = f"{ROOT_PATH}/atlases/{atlas}/{version}/tables/Basic_celltype_information.xlsx"
+FINAL_ENCYCLOPEDIA_XLSX = f"{ROOT_PATH}/atlases/{atlas}/{version}/encyclopedia/encyclopedia_table.xlsx"
 #<-setting
 
 def generate_encyclopedia_data():
@@ -98,17 +99,17 @@ def write_database(df: pd.DataFrame, tissues, datasets):
     Write encyclopedia SQLite database
     """
 
-    images_file = f'{ROOT_PATH}/atlases/{atlas}/tables/celltype_to_image.csv'
+    images_file = f'{ROOT_PATH}/atlases/{atlas}/{version}/tables/celltype_to_image.csv'
     print(f"[+] Reading image mapping from {images_file}")
     images = pd.read_csv(images_file, index_col=0, header=None)
     images.columns=["image"]
 
-    extra_dataset_info_file = f'{ROOT_PATH}/atlases/{atlas}/tables/dataset_to_PMID.csv'
+    extra_dataset_info_file = f'{ROOT_PATH}/atlases/{atlas}/{version}/tables/dataset_to_PMID.csv'
     print(f"[+] Reading extra info for datasets from {extra_dataset_info_file}")
     datasets_extra = pd.read_csv(extra_dataset_info_file, index_col=0, header=None)
     datasets_extra.columns=["PMID"]
 
-    output_file = f'{ROOT_PATH}/atlases/{atlas}/encyclopedia/encyclopedia.db'
+    output_file = f'{ROOT_PATH}/atlases/{atlas}/{version}/encyclopedia/encyclopedia.db'
     print(f"[+] Writing database to {output_file}")
 
     #Connect to the Encyclopedia database
