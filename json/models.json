@@ -1,14 +1,14 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-06-14 22:39:09.262124",
+  "last_update": "2022-07-16 22:10:51.483506",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/Pan_Immune_CellTypist/v2/Immune_All_Low.pkl",
       "version": "v2",
-      "date": "2022-04-04 23:51:15.159293",
-      "details": "immune sub-populations combined from 20 tissues of 19 studies",
-      "No_celltypes": 90,
+      "date": "2022-07-16 00:20:42.927778",
+      "details": "immune sub-populations combined from 20 tissues of 18 studies",
+      "No_celltypes": 98,
       "source": "https://doi.org/10.1126/science.abl5197",
       "default": true
     },
@@ -16,27 +16,9 @@
       "filename": "Immune_All_High.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/Pan_Immune_CellTypist/v2/Immune_All_High.pkl",
       "version": "v2",
-      "date": "2022-04-05 02:21:38.947935",
-      "details": "immune populations combined from 20 tissues of 19 studies",
+      "date": "2022-07-16 08:53:00.959521",
+      "details": "immune populations combined from 20 tissues of 18 studies",
       "No_celltypes": 32,
-      "source": "https://doi.org/10.1126/science.abl5197"
-    },
-    {
-      "filename": "Immune_All_PIP.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/Pan_Immune_Conde/v1/Immune_All_PIP.pkl",
-      "version": "v1",
-      "date": "2021-11-27 02:11:55.324799",
-      "details": "immune cell types combined from 16 adult human tissues",
-      "No_celltypes": 41,
-      "source": "https://doi.org/10.1126/science.abl5197"
-    },
-    {
-      "filename": "Immune_All_AddPIP.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/Pan_Immune_Xu/v1/Immune_All_AddPIP.pkl",
-      "version": "v1",
-      "date": "2021-11-28 10:28:46.548379",
-      "details": "immune cell types combined from >20 human tissues (Immune_All_Low + Immune_All_PIP)",
-      "No_celltypes": 101,
       "source": "https://doi.org/10.1126/science.abl5197"
     },
     {
