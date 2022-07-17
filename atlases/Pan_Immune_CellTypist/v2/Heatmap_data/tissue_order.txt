@@ -1,0 +1,20 @@
+Skin
+Skeletal muscle
+Tonsil
+Liver
+Placenta
+Decidua
+Lung
+Upper airway
+Trachea
+Thymus
+Eye
+Mesenteric lymph node
+Intestine
+Oesophagus
+Kidney
+Spleen
+Omentum
+Lung-draining lymph node
+Blood
+Bone marrow

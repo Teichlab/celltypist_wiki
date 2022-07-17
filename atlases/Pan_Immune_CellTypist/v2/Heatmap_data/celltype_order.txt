@@ -1,0 +1,98 @@
+DC precursor
+Transitional DC
+Classical monocytes
+Non-classical monocytes
+Monocytes
+Promyelocytes
+Myelocytes
+Neutrophils
+Granulocytes
+Endothelial cells
+Fibroblasts
+Epithelial cells
+Mast cells
+Kidney-resident macrophages
+Macrophages
+Alveolar macrophages
+Intermediate macrophages
+Intestinal macrophages
+Erythrophagocytic macrophages
+Kupffer cells
+Hofbauer cells
+Mono-mac
+MNP
+DC1
+DC2
+DC3
+DC
+Migratory DCs
+Cycling DCs
+Cycling monocytes
+Erythrocytes
+Early erythroid
+Mid erythroid
+Late erythroid
+HSC/MPP
+CMP
+GMP
+Megakaryocyte-erythroid-mast cell progenitor
+MEMP
+ELP
+Neutrophil-myeloid progenitor
+Monocyte precursor
+Megakaryocyte precursor
+Early MK
+Megakaryocytes/platelets
+MAIT cells
+Transitional NK
+CD16+ NK cells
+CD16- NK cells
+NK cells
+pDC
+Regulatory T cells
+Tem/Effector helper T cells
+Tcm/Naive helper T cells
+Tcm/Naive cytotoxic T cells
+Early lymphoid/T lymphoid
+B cells
+Plasma cells
+Plasmablasts
+Follicular B cells
+Naive B cells
+Memory B cells
+Age-associated B cells
+Cycling gamma-delta T cells
+Cycling T cells
+Cycling NK cells
+Cycling B cells
+Proliferative germinal center B cells
+Germinal center B cells
+pDC precursor
+Pre-pro-B cells
+Pro-B cells
+Large pre-B cells
+Small pre-B cells
+Transitional B cells
+ILC1
+ILC2
+ILC3
+ILC precursor
+ILC
+T(agonist)
+CD8a/b(entry)
+CD8a/a
+ETP
+Double-negative thymocytes
+Double-positive thymocytes
+gamma-delta T cells
+Type 1 helper T cells
+Type 17 helper T cells
+Follicular helper T cells
+NKT cells
+Tem/Trm cytotoxic T cells
+CRTAM+ gamma-delta T cells
+Tem/Temra cytotoxic T cells
+Trm cytotoxic T cells
+Memory CD4+ cytotoxic T cells
+Treg(diff)
+Tem/Effector helper T cells PD1+
