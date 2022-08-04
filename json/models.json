@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-07-16 22:10:51.483506",
+  "last_update": "2022-08-04 12:02:04.866114",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -59,9 +59,9 @@
     },
     {
       "filename": "Cells_Lung_Airway.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/Lung_Airway_Madissoon/v2/Cells_Lung_Airway.pkl",
-      "version": "v2",
-      "date": "2022-04-08 14:20:45.627667",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Lung_Airway_Madissoon/v3/Cells_Lung_Airway.pkl",
+      "version": "v3",
+      "date": "2022-08-03 19:10:46.359003",
       "details": "cell populations from scRNA-seq of five locations of the human lungs and airways",
       "No_celltypes": 78,
       "source": "https://doi.org/10.1101/2021.11.26.470108"
@@ -95,9 +95,9 @@
     },
     {
       "filename": "Nuclei_Lung_Airway.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/Lung_Airway_Madissoon/v2/Nuclei_Lung_Airway.pkl",
-      "version": "v2",
-      "date": "2022-04-08 16:21:30.325077",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Lung_Airway_Madissoon/v3/Nuclei_Lung_Airway.pkl",
+      "version": "v3",
+      "date": "2022-08-04 02:42:17.639707",
       "details": "cell populations from snRNA-seq of five locations of the human lungs and airways",
       "No_celltypes": 78,
       "source": "https://doi.org/10.1101/2021.11.26.470108"
