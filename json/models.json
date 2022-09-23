@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-09-15 08:46:25.980316",
+  "last_update": "2022-09-23 10:23:53.962683",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -53,7 +53,7 @@
       "url": "https://celltypist.cog.sanger.ac.uk/models/Intestinal_Tract_Elmentaite/v1/Cells_Intestinal_Tract.pkl",
       "version": "v1",
       "date": "2021-12-17 17:15:04.575098",
-      "details": "intestinal cells from fetal, pediatric and adult human gut",
+      "details": "intestinal cells from fetal, pediatric (healthy and Crohn's disease) and adult human gut",
       "No_celltypes": 134,
       "source": "https://doi.org/10.1038/s41586-021-03852-1"
     },
