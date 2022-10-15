@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-09-27 09:09:58.742591",
+  "last_update": "2022-10-15 19:03:28.478950",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -41,11 +41,11 @@
     },
     {
       "filename": "Cells_Fetal_Lung.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/Fetal_Lung_He/v1/Cells_Fetal_Lung.pkl",
-      "version": "v1",
-      "date": "2021-12-16 20:42:24.314579",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Fetal_Lung_He/v2/Cells_Fetal_Lung.pkl",
+      "version": "v2",
+      "date": "2022-10-15 13:54:37.427721",
       "details": "cell types from human embryonic and fetal lungs",
-      "No_celltypes": 146,
+      "No_celltypes": 144,
       "source": "https://doi.org/10.1101/2022.01.11.474933"
     },
     {
