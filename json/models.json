@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-11-10 10:44:06.247459",
+  "last_update": "2022-11-16 09:53:29.108613",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -92,6 +92,15 @@
       "details": "peripheral blood mononuclear cell types from healthy and COVID-19 individuals",
       "No_celltypes": 51,
       "source": "https://doi.org/10.1038/s41591-021-01329-2"
+    },
+    {
+      "filename": "Human_IPF_Lung.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/IPF_HumanLung_Adams/v1/Human_IPF_Lung.pkl",
+      "version": "v1",
+      "date": "2022-11-16 03:08:53.630039",
+      "details": "cell types from idiopathic pulmonary fibrosis, chronic obstructive pulmonary disease, and healthy lungs of adult humans",
+      "No_celltypes": 38,
+      "source": "https://doi.org/10.1126/sciadv.aba1983"
     },
     {
       "filename": "Human_Lung_Atlas.pkl",
