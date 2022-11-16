@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-11-16 12:29:08.082593",
+  "last_update": "2022-11-16 16:15:13.495297",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -119,6 +119,15 @@
       "details": "cell types from different forms of pulmonary fibrosis lungs of adult humans",
       "No_celltypes": 31,
       "source": "https://doi.org/10.1126/sciadv.aba1972"
+    },
+    {
+      "filename": "Lethal_COVID19_Lung.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Lethal_COVID19_Melms/v1/Lethal_COVID19_Lung.pkl",
+      "version": "v1",
+      "date": "2022-11-16 15:38:16.170461",
+      "details": "cell types from the lungs of individuals who died of COVID-19 and control individuals",
+      "No_celltypes": 41,
+      "source": "https://doi.org/10.1038/s41586-021-03569-1"
     },
     {
       "filename": "Nuclei_Lung_Airway.pkl",
