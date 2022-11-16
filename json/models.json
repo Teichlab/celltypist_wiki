@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-11-16 09:53:29.108613",
+  "last_update": "2022-11-16 12:29:08.082593",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -110,6 +110,15 @@
       "details": "integrated Human Lung Cell Atlas (HLCA) combining 46 datasets of the human respiratory system",
       "No_celltypes": 58,
       "source": "https://doi.org/10.1101/2022.03.10.483747"
+    },
+    {
+      "filename": "Human_PF_Lung.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/PF_HumanLung_Habermann/v1/Human_PF_Lung.pkl",
+      "version": "v1",
+      "date": "2022-11-16 11:53:12.984520",
+      "details": "cell types from different forms of pulmonary fibrosis lungs of adult humans",
+      "No_celltypes": 31,
+      "source": "https://doi.org/10.1126/sciadv.aba1972"
     },
     {
       "filename": "Nuclei_Lung_Airway.pkl",
