@@ -22,7 +22,7 @@ All settings can be found in the configuration file specific to each atlas (`atl
   
 Details of the four tables specific to each atlas used during the execution can be found in the sections below (`Images` and `Other tables`).  
   
-The resulting table will stay in `atlases/an_atlas_name/a_version/encyclopedia/encyclopedia_table.xlsx`, and database in `atlases/an_atlas_name/a_version/encyclopedia/encyclopedia.db`. Upload the latter to `s3://celltypist/encyclopedia/an_atlas_name/a_version/`.
+The resulting table will stay in `atlases/an_atlas_name/a_version/encyclopedia/encyclopedia_table.xlsx`, and database in `atlases/an_atlas_name/a_version/encyclopedia/encyclopedia.db`. Upload the latter to `s3://celltypist/atlases/an_atlas_name/a_version/`.
 
 ## Generate average and percent expression for gene expression heat map
 Run the following command with the atlas name (e.g. `Pan_Immune_CellTypist`) and version (e.g. `v1`).
@@ -39,7 +39,7 @@ All settings can be found in the configuration file specific to each atlas (`atl
   
 Tissue and cell type orders are defined in the `atlases/an_atlas_name/a_version/Heatmap_data/tissue_order.txt` and `atlases/an_atlas_name/a_version/Heatmap_data/celltype_order.txt`, respectively.  
   
-Heatmap data will stay in `atlases/an_atlas_name/a_version/Heatmap_data/exp_pct_celltypist.pkl`. Upload to `s3://celltypist/Heatmap_data/an_atlas_name/a_version/`.
+Heatmap data will stay in `atlases/an_atlas_name/a_version/Heatmap_data/exp_pct_celltypist.pkl`. Upload to `s3://celltypist/atlases/an_atlas_name/a_version/`.
 
 ## Images
 Images are in `images/*.png`. White background, 842 x 736 (pixels).  
