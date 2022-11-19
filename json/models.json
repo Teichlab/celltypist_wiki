@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-11-16 16:15:13.495297",
+  "last_update": "2022-11-19 12:19:07.618025",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -29,6 +29,15 @@
       "details": "cell types in the adult mouse gut combined from eight datasets",
       "No_celltypes": 126,
       "source": "TBD"
+    },
+    {
+      "filename": "Autopsy_COVID19_Lung.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Autopsy_COVID19_Delorey/v1/Autopsy_COVID19_Lung.pkl",
+      "version": "v1",
+      "date": "2022-11-19 12:00:00.583922",
+      "details": "cell types from the lungs of 16 SARS-CoV-2 infected COVID-19 autopsy adult donors",
+      "No_celltypes": 34,
+      "source": "https://doi.org/10.1038/s41586-021-03570-8"
     },
     {
       "filename": "COVID19_Immune_Landscape.pkl",
