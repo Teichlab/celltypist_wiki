@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-11-19 15:45:22.606617",
+  "last_update": "2022-12-01 20:41:13.137701",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -83,6 +83,15 @@
       "details": "cell types from the first-trimester developing human brain",
       "No_celltypes": 129,
       "source": "https://doi.org/10.1101/2022.10.24.513487"
+    },
+    {
+      "filename": "Developing_Human_Thymus.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Thymus_Park/v1/Developing_Human_Thymus.pkl",
+      "version": "v1",
+      "date": "2022-12-01 02:50:48.767817",
+      "details": "cell populations in embryonic, fetal, pediatric, and adult stages of the human thymus",
+      "No_celltypes": 55,
+      "source": "https://doi.org/10.1126/science.aay3224"
     },
     {
       "filename": "Developing_Mouse_Brain.pkl",
