@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2022-12-07 12:08:06.565435",
+  "last_update": "2023-01-15 15:34:01.834766",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -28,7 +28,7 @@
       "date": "2022-08-08 05:26:50.850176",
       "details": "cell types in the adult mouse gut combined from eight datasets",
       "No_celltypes": 126,
-      "source": "TBD"
+      "source": "https://doi.org/10.1101/2022.08.26.505428"
     },
     {
       "filename": "Autopsy_COVID19_Lung.pkl",
