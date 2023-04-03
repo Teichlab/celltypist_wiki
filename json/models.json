@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2023-01-15 15:34:01.834766",
+  "last_update": "2023-04-03 17:50:06.093116",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -38,6 +38,15 @@
       "details": "cell types from the lungs of 16 SARS-CoV-2 infected COVID-19 autopsy adult donors",
       "No_celltypes": 34,
       "source": "https://doi.org/10.1038/s41586-021-03570-8"
+    },
+    {
+      "filename": "COVID19_HumanChallenge_Blood.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/COVID19_HumanBlood_Dratva/v1/COVID19_HumanChallenge_Blood.pkl",
+      "version": "v1",
+      "date": "2022-09-29 17:40:05.907115",
+      "details": "detailed blood cell states from 16 individuals after being challenged with SARS-CoV-2",
+      "No_celltypes": 83,
+      "source": "TBD"
     },
     {
       "filename": "COVID19_Immune_Landscape.pkl",
