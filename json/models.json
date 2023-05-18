@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2023-04-03 17:50:06.093116",
+  "last_update": "2023-05-18 09:19:49.220469",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -131,11 +131,11 @@
     },
     {
       "filename": "Human_Lung_Atlas.pkl",
-      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Lung_Sikkema/v1/Human_Lung_Atlas.pkl",
-      "version": "v1",
-      "date": "2022-02-26 01:55:18.658513",
-      "details": "integrated Human Lung Cell Atlas (HLCA) combining 46 datasets of the human respiratory system",
-      "No_celltypes": 58,
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Lung_Sikkema/v2/Human_Lung_Atlas.pkl",
+      "version": "v2",
+      "date": "2023-05-17 19:51:55.661237",
+      "details": "integrated Human Lung Cell Atlas (HLCA) combining multiple datasets of the healthy respiratory system",
+      "No_celltypes": 61,
       "source": "https://doi.org/10.1101/2022.03.10.483747"
     },
     {
