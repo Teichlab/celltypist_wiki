@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2023-05-18 09:19:49.220469",
+  "last_update": "2023-08-26 20:55:07.000837",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -22,6 +22,15 @@
       "source": "https://doi.org/10.1126/science.abl5197"
     },
     {
+      "filename": "Adult_CynomolgusMacaque_Hippocampus.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Cynomolgus_Hippocampus_Hao/v1/Adult_CynomolgusMacaque_Hippocampus.pkl",
+      "version": "v1",
+      "date": "2023-07-15 19:44:09.541019",
+      "details": "cell types from the hippocampus of adult cynomolgus monkeys (Macaca fascicularis)",
+      "No_celltypes": 34,
+      "source": "https://doi.org/10.1038/s41593-022-01073-x"
+    },
+    {
       "filename": "Adult_Mouse_Gut.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/Mouse_Gut_Casado/v2/Adult_Mouse_Gut.pkl",
       "version": "v2",
@@ -29,6 +38,33 @@
       "details": "cell types in the adult mouse gut combined from eight datasets",
       "No_celltypes": 126,
       "source": "https://doi.org/10.1101/2022.08.26.505428"
+    },
+    {
+      "filename": "Adult_Mouse_OlfactoryBulb.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Mouse_OB_Tepe/v1/Adult_Mouse_OlfactoryBulb.pkl",
+      "version": "v1",
+      "date": "2023-07-22 22:13:33.861503",
+      "details": "cell types from the olfactory bulb of adult mice",
+      "No_celltypes": 40,
+      "source": "https://doi.org/10.1016/j.celrep.2018.11.034"
+    },
+    {
+      "filename": "Adult_Pig_Hippocampus.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Pig_Hippocampus_Franjic/v1/Adult_Pig_Hippocampus.pkl",
+      "version": "v1",
+      "date": "2023-07-14 21:40:10.051325",
+      "details": "cell types from the adult pig hippocampus",
+      "No_celltypes": 13,
+      "source": "https://doi.org/10.1016/j.neuron.2021.10.036"
+    },
+    {
+      "filename": "Adult_RhesusMacaque_Hippocampus.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Rhesus_Hippocampus_Franjic/v1/Adult_RhesusMacaque_Hippocampus.pkl",
+      "version": "v1",
+      "date": "2023-07-14 21:47:21.380795",
+      "details": "cell types from the hippocampus of adult rhesus monkeys (Macaca mulatta)",
+      "No_celltypes": 14,
+      "source": "https://doi.org/10.1016/j.neuron.2021.10.036"
     },
     {
       "filename": "Autopsy_COVID19_Lung.pkl",
@@ -94,6 +130,15 @@
       "source": "https://doi.org/10.1101/2022.10.24.513487"
     },
     {
+      "filename": "Developing_Human_Hippocampus.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_DevHIP_Zhong/v1/Developing_Human_Hippocampus.pkl",
+      "version": "v1",
+      "date": "2023-07-18 09:28:10.712405",
+      "details": "cell types from the developing human hippocampus",
+      "No_celltypes": 15,
+      "source": "https://doi.org/10.1038/s41586-019-1917-5"
+    },
+    {
       "filename": "Developing_Human_Thymus.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Thymus_Park/v1/Developing_Human_Thymus.pkl",
       "version": "v1",
@@ -112,6 +157,15 @@
       "source": "https://doi.org/10.1038/s41586-021-03775-x"
     },
     {
+      "filename": "Developing_Mouse_Hippocampus.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Mouse_DevHIP_Joglekar/v1/Developing_Mouse_Hippocampus.pkl",
+      "version": "v1",
+      "date": "2023-07-18 22:51:57.960310",
+      "details": "cell types from the mouse hippocampus at postnatal day 7",
+      "No_celltypes": 11,
+      "source": "https://doi.org/10.1038/s41467-020-20343-5"
+    },
+    {
       "filename": "Healthy_COVID19_PBMC.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/COVID19_PBMC_Haniffa/v1/Healthy_COVID19_PBMC.pkl",
       "version": "v1",
@@ -121,6 +175,24 @@
       "source": "https://doi.org/10.1038/s41591-021-01329-2"
     },
     {
+      "filename": "Healthy_Mouse_Liver.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Mouse_Liver_Guilliams/v1/Healthy_Mouse_Liver.pkl",
+      "version": "v1",
+      "date": "2023-07-28 12:16:49.675179",
+      "details": "cell types from scRNA-seq and snRNA-seq of the healthy murine liver",
+      "No_celltypes": 17,
+      "source": "https://doi.org/10.1016/j.cell.2021.12.018"
+    },
+    {
+      "filename": "Human_AdultAged_Hippocampus.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Hippocampus_Zhou/v1/Human_AdultAged_Hippocampus.pkl",
+      "version": "v1",
+      "date": "2023-07-16 10:03:59.893289",
+      "details": "cell types from the hippocampus of adult and aged humans",
+      "No_celltypes": 15,
+      "source": "https://doi.org/10.1038/s41586-022-04912-w"
+    },
+    {
       "filename": "Human_IPF_Lung.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/IPF_HumanLung_Adams/v1/Human_IPF_Lung.pkl",
       "version": "v1",
@@ -128,6 +200,15 @@
       "details": "cell types from idiopathic pulmonary fibrosis, chronic obstructive pulmonary disease, and healthy lungs of adult humans",
       "No_celltypes": 38,
       "source": "https://doi.org/10.1126/sciadv.aba1983"
+    },
+    {
+      "filename": "Human_Longitudinal_Hippocampus.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Hippocampus_Ayhan/v1/Human_Longitudinal_Hippocampus.pkl",
+      "version": "v1",
+      "date": "2023-07-14 12:59:10.144650",
+      "details": "cell types from the adult human anterior and posterior hippocampus",
+      "No_celltypes": 24,
+      "source": "https://doi.org/10.1016/j.neuron.2021.05.003"
     },
     {
       "filename": "Human_Lung_Atlas.pkl",
@@ -155,6 +236,33 @@
       "details": "cell types from the lungs of individuals who died of COVID-19 and control individuals",
       "No_celltypes": 41,
       "source": "https://doi.org/10.1038/s41586-021-03569-1"
+    },
+    {
+      "filename": "Mouse_Dentate_Gyrus.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Mouse_DG_Hochgerner/v1/Mouse_Dentate_Gyrus.pkl",
+      "version": "v1",
+      "date": "2023-07-14 20:03:58.410321",
+      "details": "cell types from the dentate gyrus in perinatal, juvenile, and adult mice",
+      "No_celltypes": 24,
+      "source": "https://doi.org/10.1038/s41593-017-0056-2"
+    },
+    {
+      "filename": "Mouse_Isocortex_Hippocampus.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Mouse_IsocortexHPF_Yao/v1/Mouse_Isocortex_Hippocampus.pkl",
+      "version": "v1",
+      "date": "2023-07-16 14:42:07.696736",
+      "details": "cell types from the adult mouse isocortex (neocortex) and hippocampal formation",
+      "No_celltypes": 42,
+      "source": "https://doi.org/10.1016/j.cell.2021.04.021"
+    },
+    {
+      "filename": "Mouse_Postnatal_DentateGyrus.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Mouse_DG_Hochgerner/v1/Mouse_Postnatal_DentateGyrus.pkl",
+      "version": "v1",
+      "date": "2023-07-21 23:03:32.480446",
+      "details": "cell types from the mouse dentate gyrus in postnatal days 12-35",
+      "No_celltypes": 22,
+      "source": "https://doi.org/10.1038/s41593-017-0056-2"
     },
     {
       "filename": "Nuclei_Lung_Airway.pkl",
