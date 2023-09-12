@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2023-08-26 20:55:07.000837",
+  "last_update": "2023-09-12 13:56:21.616464",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -164,6 +164,15 @@
       "details": "cell types from the mouse hippocampus at postnatal day 7",
       "No_celltypes": 11,
       "source": "https://doi.org/10.1038/s41467-020-20343-5"
+    },
+    {
+      "filename": "Healthy_Adult_Heart.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Heart_Kanemaru/v1/Healthy_Adult_Heart.pkl",
+      "version": "v1",
+      "date": "2023-02-27 16:03:27.613149",
+      "details": "cell types from eight anatomical regions of the healthy adult human heart",
+      "No_celltypes": 75,
+      "source": "https://doi.org/10.1038/s41586-023-06311-1"
     },
     {
       "filename": "Healthy_COVID19_PBMC.pkl",
