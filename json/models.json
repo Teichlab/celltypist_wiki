@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2023-09-12 13:56:21.616464",
+  "last_update": "2023-09-16 10:04:46.612132",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -29,6 +29,15 @@
       "details": "cell types from the hippocampus of adult cynomolgus monkeys (Macaca fascicularis)",
       "No_celltypes": 34,
       "source": "https://doi.org/10.1038/s41593-022-01073-x"
+    },
+    {
+      "filename": "Adult_Human_PancreaticIslet.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Pancreas_Tritschler/v1/Adult_Human_PancreaticIslet.pkl",
+      "version": "v1",
+      "date": "2023-09-15 12:01:27.068556",
+      "details": "cell types from pancreatic islets of healthy adult humans",
+      "No_celltypes": 12,
+      "source": "https://doi.org/10.1016/j.molmet.2022.101595"
     },
     {
       "filename": "Adult_Mouse_Gut.pkl",
@@ -130,6 +139,15 @@
       "source": "https://doi.org/10.1101/2022.10.24.513487"
     },
     {
+      "filename": "Developing_Human_Gonads.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Gonads_Alonso/v1/Developing_Human_Gonads.pkl",
+      "version": "v1",
+      "date": "2023-09-16 02:07:24.874009",
+      "details": "cell types of human gonadal and adjacent extragonadal tissue from the first and second trimesters of gestation",
+      "No_celltypes": 53,
+      "source": "https://doi.org/10.1038/s41586-022-04918-4"
+    },
+    {
       "filename": "Developing_Human_Hippocampus.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/Human_DevHIP_Zhong/v1/Developing_Human_Hippocampus.pkl",
       "version": "v1",
@@ -184,6 +202,15 @@
       "source": "https://doi.org/10.1038/s41591-021-01329-2"
     },
     {
+      "filename": "Healthy_Human_Liver.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Liver_Guilliams/v1/Healthy_Human_Liver.pkl",
+      "version": "v1",
+      "date": "2023-09-14 12:48:54.179790",
+      "details": "cell types from scRNA-seq and snRNA-seq of the adult human liver",
+      "No_celltypes": 17,
+      "source": "https://doi.org/10.1016/j.cell.2021.12.018"
+    },
+    {
       "filename": "Healthy_Mouse_Liver.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/Mouse_Liver_Guilliams/v1/Healthy_Mouse_Liver.pkl",
       "version": "v1",
@@ -200,6 +227,15 @@
       "details": "cell types from the hippocampus of adult and aged humans",
       "No_celltypes": 15,
       "source": "https://doi.org/10.1038/s41586-022-04912-w"
+    },
+    {
+      "filename": "Human_Embryonic_YolkSac.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_YolkSac_Goh/v1/Human_Embryonic_YolkSac.pkl",
+      "version": "v1",
+      "date": "2023-09-14 17:32:58.768364",
+      "details": "cell types of the human yolk sac from 4-8 post-conception weeks",
+      "No_celltypes": 49,
+      "source": "https://doi.org/10.1126/science.add7564"
     },
     {
       "filename": "Human_IPF_Lung.pkl",
