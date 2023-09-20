@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2023-09-16 10:04:46.612132",
+  "last_update": "2023-09-20 19:29:06.523508",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -157,6 +157,15 @@
       "source": "https://doi.org/10.1038/s41586-019-1917-5"
     },
     {
+      "filename": "Developing_Human_Organs.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Developing_Human_Yu/v1/Developing_Human_Organs.pkl",
+      "version": "v1",
+      "date": "2023-09-17 13:47:50.974219",
+      "details": "cell types of five endoderm-derived organs in developing humans from 7\u201321 post-conception weeks",
+      "No_celltypes": 27,
+      "source": "https://doi.org/10.1016/j.cell.2021.04.028"
+    },
+    {
       "filename": "Developing_Human_Thymus.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Thymus_Park/v1/Developing_Human_Thymus.pkl",
       "version": "v1",
@@ -182,6 +191,51 @@
       "details": "cell types from the mouse hippocampus at postnatal day 7",
       "No_celltypes": 11,
       "source": "https://doi.org/10.1038/s41467-020-20343-5"
+    },
+    {
+      "filename": "Fetal_Human_AdrenalGlands.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Fetal_Adrenal_Dong/v1/Fetal_Human_AdrenalGlands.pkl",
+      "version": "v1",
+      "date": "2023-09-17 10:03:32.274480",
+      "details": "cell types of human fetal adrenal glands from 8 to 14 post-conceptional weeks",
+      "No_celltypes": 9,
+      "source": "https://doi.org/10.1016/j.ccell.2020.08.014"
+    },
+    {
+      "filename": "Fetal_Human_Pancreas.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Fetal_Pancreas_Yu/v1/Fetal_Human_Pancreas.pkl",
+      "version": "v1",
+      "date": "2023-09-17 16:29:53.752285",
+      "details": "pancreatic cell types from human embryos at 9-19 weeks post conception",
+      "No_celltypes": 19,
+      "source": "https://doi.org/10.1038/s41422-021-00486-w"
+    },
+    {
+      "filename": "Fetal_Human_Pituitary.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Fetal_Pituitary_Zhang/v1/Fetal_Human_Pituitary.pkl",
+      "version": "v1",
+      "date": "2023-09-17 11:06:13.979445",
+      "details": "cell types of human fetal pituitaries from 7 to 25 weeks postfertilization",
+      "No_celltypes": 14,
+      "source": "https://doi.org/10.1038/s41467-020-19012-4"
+    },
+    {
+      "filename": "Fetal_Human_Retina.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Fetal_Retina_Hu/v1/Fetal_Human_Retina.pkl",
+      "version": "v1",
+      "date": "2023-09-17 09:17:11.379366",
+      "details": "cell types from human fetal neural retina and retinal pigment epithelium",
+      "No_celltypes": 25,
+      "source": "https://doi.org/10.1371/journal.pbio.3000365"
+    },
+    {
+      "filename": "Fetal_Human_Skin.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Skin_Reynolds/v1/Fetal_Human_Skin.pkl",
+      "version": "v1",
+      "date": "2023-09-20 19:14:33.808090",
+      "details": "cell types from developing human fetal skin",
+      "No_celltypes": 14,
+      "source": "https://doi.org/10.1126/science.aba6500"
     },
     {
       "filename": "Healthy_Adult_Heart.pkl",
@@ -227,6 +281,15 @@
       "details": "cell types from the hippocampus of adult and aged humans",
       "No_celltypes": 15,
       "source": "https://doi.org/10.1038/s41586-022-04912-w"
+    },
+    {
+      "filename": "Human_Developmental_Retina.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Fetal_Retina_Sridhar/v1/Human_Developmental_Retina.pkl",
+      "version": "v1",
+      "date": "2023-09-17 20:42:25.314063",
+      "details": "cell types from human fetal retina",
+      "No_celltypes": 16,
+      "source": "https://doi.org/10.1016/j.celrep.2020.01.007"
     },
     {
       "filename": "Human_Embryonic_YolkSac.pkl",
