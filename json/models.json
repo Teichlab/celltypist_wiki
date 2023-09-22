@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2023-09-20 19:29:06.523508",
+  "last_update": "2023-09-22 18:24:09.501467",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -38,6 +38,15 @@
       "details": "cell types from pancreatic islets of healthy adult humans",
       "No_celltypes": 12,
       "source": "https://doi.org/10.1016/j.molmet.2022.101595"
+    },
+    {
+      "filename": "Adult_Human_Skin.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Skin_Reynolds/v1/Adult_Human_Skin.pkl",
+      "version": "v1",
+      "date": "2023-09-22 18:13:10.902604",
+      "details": "cell types from human healthy adult skin",
+      "No_celltypes": 34,
+      "source": "https://doi.org/10.1126/science.aba6500"
     },
     {
       "filename": "Adult_Mouse_Gut.pkl",
@@ -109,7 +118,7 @@
       "date": "2022-10-15 13:54:37.427721",
       "details": "cell types from human embryonic and fetal lungs",
       "No_celltypes": 144,
-      "source": "https://doi.org/10.1101/2022.01.11.474933"
+      "source": "https://doi.org/10.1016/j.cell.2022.11.005"
     },
     {
       "filename": "Cells_Intestinal_Tract.pkl",
