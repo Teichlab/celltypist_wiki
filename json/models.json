@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2023-09-22 18:24:09.501467",
+  "last_update": "2024-04-21 19:37:04.689092",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -55,7 +55,7 @@
       "date": "2022-08-08 05:26:50.850176",
       "details": "cell types in the adult mouse gut combined from eight datasets",
       "No_celltypes": 126,
-      "source": "https://doi.org/10.1101/2022.08.26.505428"
+      "source": "https://doi.org/10.1038/s41586-024-07251-0"
     },
     {
       "filename": "Adult_Mouse_OlfactoryBulb.pkl",
@@ -112,6 +112,15 @@
       "source": "https://doi.org/10.1016/j.cell.2021.01.053"
     },
     {
+      "filename": "Cells_Adult_Breast.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Adult_Breast_Kumar/v1/Cells_Adult_Breast.pkl",
+      "version": "v1",
+      "date": "2024-04-20 21:09:27.948338",
+      "details": "cell types from the adult human breast",
+      "No_celltypes": 58,
+      "source": "https://doi.org/10.1038/s41586-023-06252-9"
+    },
+    {
       "filename": "Cells_Fetal_Lung.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/Fetal_Lung_He/v2/Cells_Fetal_Lung.pkl",
       "version": "v2",
@@ -119,6 +128,15 @@
       "details": "cell types from human embryonic and fetal lungs",
       "No_celltypes": 144,
       "source": "https://doi.org/10.1016/j.cell.2022.11.005"
+    },
+    {
+      "filename": "Cells_Human_Tonsil.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Tonsil_Badosa/v1/Cells_Human_Tonsil.pkl",
+      "version": "v1",
+      "date": "2024-04-21 17:50:57.165795",
+      "details": "tonsillar cell types from humans (3-65 years)",
+      "No_celltypes": 117,
+      "source": "https://doi.org/10.1016/j.immuni.2024.01.006"
     },
     {
       "filename": "Cells_Intestinal_Tract.pkl",
@@ -145,7 +163,7 @@
       "date": "2022-10-29 21:02:53.713593",
       "details": "cell types from the first-trimester developing human brain",
       "No_celltypes": 129,
-      "source": "https://doi.org/10.1101/2022.10.24.513487"
+      "source": "https://doi.org/10.1126/science.adf1226"
     },
     {
       "filename": "Developing_Human_Gonads.pkl",
@@ -334,7 +352,7 @@
       "date": "2023-05-17 19:51:55.661237",
       "details": "integrated Human Lung Cell Atlas (HLCA) combining multiple datasets of the healthy respiratory system",
       "No_celltypes": 61,
-      "source": "https://doi.org/10.1101/2022.03.10.483747"
+      "source": "https://doi.org/10.1038/s41591-023-02327-2"
     },
     {
       "filename": "Human_PF_Lung.pkl",
