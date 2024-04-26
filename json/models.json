@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2024-04-21 19:37:04.689092",
+  "last_update": "2024-04-26 21:54:17.175915",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -308,6 +308,15 @@
       "details": "cell types from the hippocampus of adult and aged humans",
       "No_celltypes": 15,
       "source": "https://doi.org/10.1038/s41586-022-04912-w"
+    },
+    {
+      "filename": "Human_Colorectal_Cancer.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Colorectal_Cancer_Lee/v1/Human_Colorectal_Cancer.pkl",
+      "version": "v1",
+      "date": "2024-04-26 20:47:44.844844",
+      "details": "cell types of colon tissues from patients with colorectal cancer",
+      "No_celltypes": 36,
+      "source": "https://doi.org/10.1038/s41588-020-0636-z"
     },
     {
       "filename": "Human_Developmental_Retina.pkl",
