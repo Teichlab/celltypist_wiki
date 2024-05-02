@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2024-04-26 21:54:17.175915",
+  "last_update": "2024-05-02 21:40:53.122393",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -407,6 +407,15 @@
       "details": "cell types from the mouse dentate gyrus in postnatal days 12-35",
       "No_celltypes": 22,
       "source": "https://doi.org/10.1038/s41593-017-0056-2"
+    },
+    {
+      "filename": "Mouse_Whole_Brain.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Adult_MouseBrain_Yao/v1/Mouse_Whole_Brain.pkl",
+      "version": "v1",
+      "date": "2024-04-30 17:19:37.721313",
+      "details": "cell types from the whole adult mouse brain",
+      "No_celltypes": 334,
+      "source": "https://doi.org/10.1038/s41586-023-06812-z"
     },
     {
       "filename": "Nuclei_Lung_Airway.pkl",
