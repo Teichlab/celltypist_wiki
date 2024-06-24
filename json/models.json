@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2024-05-02 21:40:53.122393",
+  "last_update": "2024-06-24 19:49:58.310427",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -20,6 +20,15 @@
       "details": "immune populations combined from 20 tissues of 18 studies",
       "No_celltypes": 32,
       "source": "https://doi.org/10.1126/science.abl5197"
+    },
+    {
+      "filename": "Adult_COVID19_PBMC.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/COVID19_PBMC_Wilk/v1/Adult_COVID19_PBMC.pkl",
+      "version": "v1",
+      "date": "2024-06-24 19:37:48.634397",
+      "details": "peripheral blood mononuclear cell types from COVID-19 patients and healthy controls",
+      "No_celltypes": 20,
+      "source": "https://doi.org/10.1038/s41591-020-0944-y"
     },
     {
       "filename": "Adult_CynomolgusMacaque_Hippocampus.pkl",
@@ -100,7 +109,7 @@
       "date": "2022-09-29 17:40:05.907115",
       "details": "detailed blood cell states from 16 individuals after being challenged with SARS-CoV-2",
       "No_celltypes": 83,
-      "source": "TBD"
+      "source": "https://doi.org/10.1038/s41586-024-07575-x"
     },
     {
       "filename": "COVID19_Immune_Landscape.pkl",
@@ -371,6 +380,15 @@
       "details": "cell types from different forms of pulmonary fibrosis lungs of adult humans",
       "No_celltypes": 31,
       "source": "https://doi.org/10.1126/sciadv.aba1972"
+    },
+    {
+      "filename": "Human_Placenta_Decidua.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Placenta_VentoTormo/v1/Human_Placenta_Decidua.pkl",
+      "version": "v1",
+      "date": "2024-06-24 12:24:39.703109",
+      "details": "cell types from first-trimester human placentas with matched maternal blood and decidua",
+      "No_celltypes": 32,
+      "source": "https://doi.org/10.1038/s41586-018-0698-6"
     },
     {
       "filename": "Lethal_COVID19_Lung.pkl",
