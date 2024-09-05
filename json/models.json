@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2024-06-24 19:49:58.310427",
+  "last_update": "2024-09-05 13:35:11.355058",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -40,6 +40,15 @@
       "source": "https://doi.org/10.1038/s41593-022-01073-x"
     },
     {
+      "filename": "Adult_Human_MTG.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_MTG_Allen/v1/Adult_Human_MTG.pkl",
+      "version": "v1",
+      "date": "2024-09-05 12:16:32.271311",
+      "details": "cell types and subtypes (10x-based) from the adult human middle temporal gyrus",
+      "No_celltypes": 127,
+      "source": "celltypes.brain-map.org/rnaseq"
+    },
+    {
       "filename": "Adult_Human_PancreaticIslet.pkl",
       "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Pancreas_Tritschler/v1/Adult_Human_PancreaticIslet.pkl",
       "version": "v1",
@@ -47,6 +56,15 @@
       "details": "cell types from pancreatic islets of healthy adult humans",
       "No_celltypes": 12,
       "source": "https://doi.org/10.1016/j.molmet.2022.101595"
+    },
+    {
+      "filename": "Adult_Human_PrefrontalCortex.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_PFC_Ma/v1/Adult_Human_PrefrontalCortex.pkl",
+      "version": "v1",
+      "date": "2024-09-05 11:40:55.636137",
+      "details": "cell types and subtypes from the adult human dorsolateral prefrontal cortex",
+      "No_celltypes": 113,
+      "source": "https://doi.org/10.1126/science.abo7257"
     },
     {
       "filename": "Adult_Human_Skin.pkl",
