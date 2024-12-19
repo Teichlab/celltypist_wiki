@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2024-09-05 13:35:11.355058",
+  "last_update": "2024-12-19 21:05:57.573796",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -74,6 +74,15 @@
       "details": "cell types from human healthy adult skin",
       "No_celltypes": 34,
       "source": "https://doi.org/10.1126/science.aba6500"
+    },
+    {
+      "filename": "Adult_Human_Vascular.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Pan_Vas_Barnett/v1/Adult_Human_Vascular.pkl",
+      "version": "v1",
+      "date": "2024-12-19 16:51:45.315630",
+      "details": "vascular populations combined from multiple adult human organs",
+      "No_celltypes": 42,
+      "source": "https://doi.org/10.1038/s41591-024-03376-x"
     },
     {
       "filename": "Adult_Mouse_Gut.pkl",
