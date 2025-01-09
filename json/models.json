@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2024-12-19 21:05:57.573796",
+  "last_update": "2025-01-09 16:26:52.479205",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -371,6 +371,15 @@
       "details": "cell types of the human yolk sac from 4-8 post-conception weeks",
       "No_celltypes": 49,
       "source": "https://doi.org/10.1126/science.add7564"
+    },
+    {
+      "filename": "Human_Endometrium_Atlas.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Endometrium_Mareckova/v1/Human_Endometrium_Atlas.pkl",
+      "version": "v1",
+      "date": "2025-01-09 15:43:11.091556",
+      "details": "endometrial cell types integrated from seven datasets across the menstrual cycle",
+      "No_celltypes": 36,
+      "source": "https://doi.org/10.1038/s41588-024-01873-w"
     },
     {
       "filename": "Human_IPF_Lung.pkl",
