@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2025-01-09 16:26:52.479205",
+  "last_update": "2025-09-29 19:47:00.922690",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -119,6 +119,24 @@
       "details": "cell types from the hippocampus of adult rhesus monkeys (Macaca mulatta)",
       "No_celltypes": 14,
       "source": "https://doi.org/10.1016/j.neuron.2021.10.036"
+    },
+    {
+      "filename": "Adult_cHSPCs_Illumina.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Adult_cHSPCs_Furer/v1/Adult_cHSPCs_Illumina.pkl",
+      "version": "v1",
+      "date": "2025-09-10 17:01:11.664746",
+      "details": "human circulating hematopoietic stem and progenitor cell types in aging, cytopenia, and myelodysplastic syndrome (Illumina)",
+      "No_celltypes": 20,
+      "source": "https://doi.org/10.1038/s41591-025-03716-5"
+    },
+    {
+      "filename": "Adult_cHSPCs_Ultima.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Adult_cHSPCs_Furer/v1/Adult_cHSPCs_Ultima.pkl",
+      "version": "v1",
+      "date": "2025-09-10 15:52:19.243991",
+      "details": "human circulating hematopoietic stem and progenitor cell types in aging, cytopenia, and myelodysplastic syndrome (Ultima)",
+      "No_celltypes": 20,
+      "source": "https://doi.org/10.1038/s41591-025-03716-5"
     },
     {
       "filename": "Autopsy_COVID19_Lung.pkl",
