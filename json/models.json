@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2025-09-29 19:47:00.922690",
+  "last_update": "2025-10-15 10:57:00.250954",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -497,6 +497,24 @@
       "details": "cell populations from snRNA-seq of five locations of the human lungs and airways",
       "No_celltypes": 78,
       "source": "https://doi.org/10.1101/2021.11.26.470108"
+    },
+    {
+      "filename": "PaediatricAdult_COVID19_Airway.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/PaediatricAdult_COVID19_Yoshida/v1/PaediatricAdult_COVID19_Airway.pkl",
+      "version": "v1",
+      "date": "2025-10-14 23:14:36.927842",
+      "details": "cell types in the airway of paediatric and adult patients with COVID-19 and healthy controls",
+      "No_celltypes": 59,
+      "source": "https://doi.org/10.1038/s41586-021-04345-x"
+    },
+    {
+      "filename": "PaediatricAdult_COVID19_PBMC.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/PaediatricAdult_COVID19_Yoshida/v1/PaediatricAdult_COVID19_PBMC.pkl",
+      "version": "v1",
+      "date": "2025-10-15 00:51:41.857714",
+      "details": "peripheral blood mononuclear cell types of paediatric and adult patients with COVID-19 and healthy controls",
+      "No_celltypes": 42,
+      "source": "https://doi.org/10.1038/s41586-021-04345-x"
     },
     {
       "filename": "Pan_Fetal_Human.pkl",
