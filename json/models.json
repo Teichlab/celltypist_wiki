@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2025-10-15 10:57:00.250954",
+  "last_update": "2025-11-19 20:20:21.097512",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -452,6 +452,15 @@
       "details": "cell types from the lungs of individuals who died of COVID-19 and control individuals",
       "No_celltypes": 41,
       "source": "https://doi.org/10.1038/s41586-021-03569-1"
+    },
+    {
+      "filename": "Mouse_Dendritic_Subtypes.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Mouse_DC_Baber/v1/Mouse_Dendritic_Subtypes.pkl",
+      "version": "v1",
+      "date": "2025-08-12 18:05:20.370475",
+      "details": "dendritic cell subtypes integrated from 9 datasets across murine spleen, bone marrow, blood, and lung tissue",
+      "No_celltypes": 10,
+      "source": "https://doi.org/10.1111/imr.70077"
     },
     {
       "filename": "Mouse_Dentate_Gyrus.pkl",
