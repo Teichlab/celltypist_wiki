@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2025-11-19 20:20:21.097512",
+  "last_update": "2025-12-02 22:27:25.668285",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -497,6 +497,15 @@
       "details": "cell types from the whole adult mouse brain",
       "No_celltypes": 334,
       "source": "https://doi.org/10.1038/s41586-023-06812-z"
+    },
+    {
+      "filename": "Nuclei_Human_InnerEar.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Human_Ear_Valk/v1/Nuclei_Human_InnerEar.pkl",
+      "version": "v1",
+      "date": "2025-12-02 22:12:13.925426",
+      "details": "cell types from human inner ear at fetal age weeks 7.5 and 9.2 as well as adult",
+      "No_celltypes": 18,
+      "source": "https://doi.org/10.1016/j.celrep.2023.112623"
     },
     {
       "filename": "Nuclei_Lung_Airway.pkl",
