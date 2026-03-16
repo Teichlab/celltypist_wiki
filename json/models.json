@@ -1,6 +1,6 @@
 {
   "description": "CellTypist model list",
-  "last_update": "2025-12-02 22:27:25.668285",
+  "last_update": "2026-03-16 15:58:39.812071",
   "models": [
     {
       "filename": "Immune_All_Low.pkl",
@@ -542,6 +542,15 @@
       "details": "stromal and immune populations from the human fetus",
       "No_celltypes": 138,
       "source": "https://doi.org/10.1126/science.abo0510"
+    },
+    {
+      "filename": "Thymus_Allograft_PBMC.pkl",
+      "url": "https://celltypist.cog.sanger.ac.uk/models/Thymus_Transplant_Suo/v1/Thymus_Allograft_PBMC.pkl",
+      "version": "v1",
+      "date": "2026-03-14 04:25:02.226899",
+      "details": "cell types from cultured, transplanted and control thymus tissue, patient-derived longitudinal PBMC, and control PBMC",
+      "No_celltypes": 82,
+      "source": "TBD"
     }
   ]
 }
